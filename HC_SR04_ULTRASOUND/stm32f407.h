@@ -17,6 +17,7 @@
 /*GPIO BASE ADDRESSES*/
 #define AHB1_BASE_ADDRESS		0x40020000U
 #define GPIOA_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x0000)
+#define GPIOD_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x0C00)
 
 #define RCC_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x3800)	
 
@@ -72,11 +73,18 @@ typedef struct{
 }RCC_RegDef_t;
 
 #define GPIOA                   ((GPIO_RegDef_t*)GPIOA_BASE_ADDRESS)
+#define GPIOD                   ((GPIO_RegDef_t*)GPIOD_BASE_ADDRESS)
 #define RCC                     ((RCC_RegDef_t*)RCC_BASE_ADDRESS)
 
 #define GPIOA_PCLK_EN()         (RCC->RCC_AHB1ENR |= (1 << 0))
 #define GPIOA_PCLK_DI()         (RCC->RCC_AHB1ENR &= ~(1 << 0))
 
 #define GPIOA_REG_RESET()       do{ (RCC->RCC_AHB1RSTR |= (1 << 0)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 0)); }while(0)
+
+#define GPIOD_PCLK_EN()         (RCC->RCC_AHB1ENR |= (1 << 3))
+#define GPIOD_PCLK_DI()         (RCC->RCC_AHB1ENR &= ~(1 << 3))
+
+#define GPIOD_REG_RESET()       do{ (RCC->RCC_AHB1RSTR |= (1 << 3)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 3)); }while(0)
+
 
 #endif

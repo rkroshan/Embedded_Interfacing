@@ -64,6 +64,8 @@ void Gpio_reset(GPIO_RegDef_t* pGpiox)
 {
     if(pGpiox == GPIOA){
         GPIOA_REG_RESET();
+    }else if(pGpiox == GPIOD){
+        GPIOD_REG_RESET();
     }
 }
 
@@ -89,9 +91,15 @@ void GPIO_PeriCLKcontrol(GPIO_RegDef_t* pGpiox, uint8_t state)
         if(pGpiox == GPIOA){
             GPIOA_PCLK_EN();
         }
+        else if(pGpiox == GPIOD){
+            GPIOD_PCLK_EN();
+        }
     }else{
         if(pGpiox == GPIOA){
             GPIOA_PCLK_DI();
+        }
+        else if(pGpiox == GPIOD){
+            GPIOD_PCLK_DI();
         }
     }
 }

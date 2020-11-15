@@ -1,103 +1,20 @@
 Archive member included to satisfy reference by file (symbol)
 
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o (exit)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o) (_global_impure_ptr)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o (__libc_init_array)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o (memset)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
-                              main.o (puts)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-strlen.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o) (strlen)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o) (__call_exitprocs)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o) (atexit)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o) (__sinit)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o) (__sfvwrite_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o) (_fwalk)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o) (__retarget_lock_init_recursive)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o) (_malloc_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memchr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o) (memchr)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memcpy.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o) (memcpy)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o) (memmove)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o) (__malloc_lock)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o) (_realloc_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o) (_sbrk_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o) (__sread)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o) (_write_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o) (__swsetup_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o) (__register_exitproc)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o) (_close_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o) (_fclose_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o) (__sflush_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o) (_free_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o) (_lseek_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o) (__smakebuf_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o) (_read_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o) (errno)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o) (_fstat_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o) (_isatty_r)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o) (_read)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o) (_exit)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o) (_kill_shared)
-/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o) (__errno)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+                              syscalls.o (__errno)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (exit)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (__libc_init_array)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o (memset)
 
 Allocating common symbols
 Common symbol       size              file
 
-__lock___atexit_recursive_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___arc4random_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-errno               0x4               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
-__lock___env_recursive_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___sinit_recursive_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___malloc_recursive_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___at_quick_exit_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___dd_hash_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___tz_mutex   0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-__lock___sfp_recursive_mutex
-                    0x1               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
+handler             0xc               main.o
 
 Memory Configuration
 
@@ -110,689 +27,296 @@ Linker script and memory map
 
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
-LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
+LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+LOAD syscalls.o
 LOAD gpio_driver.o
 LOAD stm32f4_startup.o
 LOAD main.o
 LOAD HC_SR04.o
 START GROUP
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a
-LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a
+LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
 END GROUP
 START GROUP
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a
-LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a
-LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a
+LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a
 END GROUP
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
 
-.text           0x0000000008000000     0x2eac
+.text           0x0000000008000000      0x99c
  *(.isr_vector)
  .isr_vector    0x0000000008000000      0x188 stm32f4_startup.o
                 0x0000000008000000                vectors
  *(.text)
  .text          0x0000000008000188        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
  .text          0x0000000008000188       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
- .text          0x00000000080001c8       0xf8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
+ .text          0x00000000080001c8       0x7c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
                 0x00000000080001c8                _stack_init
-                0x00000000080001d4                _mainCRTStartup
-                0x00000000080001d4                _start
- .text          0x00000000080002c0      0x218 gpio_driver.o
-                0x00000000080002c0                Gpio_init
-                0x00000000080003b2                Gpio_reset
-                0x00000000080003ec                GPIO_PeriCLKcontrol
-                0x000000000800043c                GPIO_readInputFromPin
-                0x0000000008000466                GPIO_readInputFromPort
-                0x000000000800047e                GPIO_writeOutputInPin
-                0x00000000080004ba                GPIO_writeOutputInPort
- .text          0x00000000080004d8       0x90 stm32f4_startup.o
-                0x00000000080004d8                RTC_WKUP_Handler
-                0x00000000080004d8                FLASH_Handler
-                0x00000000080004d8                SVCall_Handler
-                0x00000000080004d8                DMA2_Stream7_Handler
-                0x00000000080004d8                OTG_HS_Handler
-                0x00000000080004d8                DMA2_Stream3_Handler
-                0x00000000080004d8                SysTick_Handler
-                0x00000000080004d8                USART3_Handler
-                0x00000000080004d8                PendSV_Handler
-                0x00000000080004d8                NMI_Handler
-                0x00000000080004d8                TIM6_DAC_Handler
-                0x00000000080004d8                CAN1_RX1_Handler
-                0x00000000080004d8                EXTI15_10_Handler
-                0x00000000080004d8                ADC_Handler
-                0x00000000080004d8                HASH_RNG_Handler
-                0x00000000080004d8                I2C1_EV_Handler
-                0x00000000080004d8                TAMP_STAMP_Handler
-                0x00000000080004d8                I2C3_ER_Handler
-                0x00000000080004d8                WWDG_Handler
-                0x00000000080004d8                EXTI4_Handler
-                0x00000000080004d8                I2C3_EV_Handler
-                0x00000000080004d8                DMA1_Stream1_Handler
-                0x00000000080004d8                DMA2_Stream4_Handler
-                0x00000000080004d8                DMA1_Stream7_Handler
-                0x00000000080004d8                OTG_FS_Handler
-                0x00000000080004d8                ETH_WKUP_Handler
-                0x00000000080004d8                TIM1_BRK_TIM9_Handler
-                0x00000000080004d8                I2C1_ER_Handler
-                0x00000000080004d8                DMA1_Stream3_Handler
-                0x00000000080004d8                UsageFault_Handler
-                0x00000000080004d8                TIM1_UP_TIM10_Handler
-                0x00000000080004d8                CAN1_RX0_Handler
-                0x00000000080004d8                TIM1_CC_Handler
-                0x00000000080004d8                I2C2_ER_Handler
-                0x00000000080004d8                USART6_Handler
-                0x00000000080004d8                TIM8_CC_Handler
-                0x00000000080004d8                CAN1_SCE_Handler
-                0x00000000080004d8                DMA1_Stream0_Handler
-                0x00000000080004d8                OTG_HS_EP1_OUT_Handler
-                0x00000000080004d8                FSMC_Handler
-                0x00000000080004d8                EXTI1_Handler
-                0x00000000080004d8                EXTI3_Handler
-                0x00000000080004d8                CRYP_Handler
-                0x00000000080004d8                EXTI2_Handler
-                0x00000000080004d8                UART4_Handler
-                0x00000000080004d8                CAN2_RX1_Handler
-                0x00000000080004d8                EXTI9_5_Handler
-                0x00000000080004d8                TIM2_Handler
-                0x00000000080004d8                USART1_Handler
-                0x00000000080004d8                CAN2_SCE_Handler
-                0x00000000080004d8                TIM3_Handler
-                0x00000000080004d8                DMA2_Stream6_Handler
-                0x00000000080004d8                Default_Handler
-                0x00000000080004d8                DCMI_Handler
-                0x00000000080004d8                TIM1_TRG_COM_TIM11_Handler
-                0x00000000080004d8                RTC_Alarm_Handler
-                0x00000000080004d8                TIM4_Handler
-                0x00000000080004d8                TIM8_UP_TIM13_Handler
-                0x00000000080004d8                CAN2_TX_Handler
-                0x00000000080004d8                SPI2_Handler
-                0x00000000080004d8                DMA2_Stream1_Handler
-                0x00000000080004d8                DMA1_Stream2_Handler
-                0x00000000080004d8                EXTI0_Handler
-                0x00000000080004d8                TIM8_BRK_TIM12_Handler
-                0x00000000080004d8                CAN2_RX0_Handler
-                0x00000000080004d8                DMA2_Stream5_Handler
-                0x00000000080004d8                DMA1_Stream6_Handler
-                0x00000000080004d8                SDIO_Handler
-                0x00000000080004d8                USART2_Handler
-                0x00000000080004d8                ETH_Handler
-                0x00000000080004d8                SPI1_Handler
-                0x00000000080004d8                I2C2_EV_Handler
-                0x00000000080004d8                DMA2_Stream2_Handler
-                0x00000000080004d8                Debug_Monitor_Handler
-                0x00000000080004d8                SPI3_Handler
-                0x00000000080004d8                DMA2_Stream0_Handler
-                0x00000000080004d8                RCC_Handler
-                0x00000000080004d8                PVD_Handler
-                0x00000000080004d8                UART5_Handler
-                0x00000000080004d8                DMA1_Stream5_Handler
-                0x00000000080004d8                TIM5_Handler
-                0x00000000080004d8                TIM7_Handler
-                0x00000000080004d8                TIM8_TRG_COM_TIM14_Handler
-                0x00000000080004d8                CAN1_TX_Handler
-                0x00000000080004d8                FPU_Handler
-                0x00000000080004d8                DMA1_Stream4_Handler
-                0x00000000080004d8                OTG_HS_WKUP_Handler
-                0x00000000080004d8                OTG_FS_WKUP_Handler
-                0x00000000080004d8                OTG_HS_EP1_IN_Handler
-                0x00000000080004de                Reset_Handler
- .text          0x0000000008000568       0x84 main.o
-                0x0000000008000568                main
-                0x0000000008000580                enable_processor_faults
-                0x00000000080005bc                HardFault_Handler
-                0x00000000080005cc                MemManage_Handler
-                0x00000000080005dc                BusFault_Handler
- .text          0x00000000080005ec       0x40 HC_SR04.o
-                0x00000000080005ec                hc_sr04_send_echo
-                0x00000000080005fe                hc_sr04_get_time_lapse
-                0x000000000800060c                hc_sr04_get_distance_in_cm
-                0x000000000800061c                hc_sr04_get_distance_in_inch
- .text          0x000000000800062c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
- .text          0x000000000800062c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
- .text          0x000000000800062c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
- .text          0x000000000800062c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
- .text          0x000000000800062c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
- *fill*         0x000000000800062c       0x14 
- .text          0x0000000008000640       0xdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-strlen.o)
-                0x0000000008000640                strlen
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
- .text          0x000000000800071c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
- *fill*         0x000000000800071c        0x4 
- .text          0x0000000008000720       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memchr.o)
-                0x0000000008000720                memchr
- .text          0x00000000080007c0      0x134 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memcpy.o)
-                0x00000000080007c0                memcpy
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
- .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
+                0x00000000080001d0                _mainCRTStartup
+                0x00000000080001d0                _start
+ .text          0x0000000008000244      0x25c syscalls.o
+                0x0000000008000244                initialise_monitor_handles
+                0x0000000008000250                _getpid
+                0x000000000800025e                _kill
+                0x000000000800027e                _exit
+                0x0000000008000292                _read
+                0x00000000080002cc                _write
+                0x0000000008000304                _close
+                0x000000000800031a                _fstat
+                0x0000000008000338                _isatty
+                0x000000000800034c                _lseek
+                0x0000000008000364                _open
+                0x000000000800037e                _wait
+                0x000000000800039c                _unlink
+                0x00000000080003ba                _times
+                0x00000000080003d0                _stat
+                0x00000000080003ee                _link
+                0x000000000800040e                _fork
+                0x0000000008000424                _execve
+                0x0000000008000446                _sbrk
+ .text          0x00000000080004a0      0x270 gpio_driver.o
+                0x00000000080004a0                Gpio_init
+                0x0000000008000592                Gpio_reset
+                0x00000000080005f4                GPIO_PeriCLKcontrol
+                0x0000000008000674                GPIO_readInputFromPin
+                0x000000000800069e                GPIO_readInputFromPort
+                0x00000000080006b6                GPIO_writeOutputInPin
+                0x00000000080006f2                GPIO_writeOutputInPort
+ .text          0x0000000008000710       0x90 stm32f4_startup.o
+                0x0000000008000710                RTC_WKUP_Handler
+                0x0000000008000710                FLASH_Handler
+                0x0000000008000710                SVCall_Handler
+                0x0000000008000710                DMA2_Stream7_Handler
+                0x0000000008000710                OTG_HS_Handler
+                0x0000000008000710                DMA2_Stream3_Handler
+                0x0000000008000710                SysTick_Handler
+                0x0000000008000710                USART3_Handler
+                0x0000000008000710                PendSV_Handler
+                0x0000000008000710                NMI_Handler
+                0x0000000008000710                TIM6_DAC_Handler
+                0x0000000008000710                CAN1_RX1_Handler
+                0x0000000008000710                EXTI15_10_Handler
+                0x0000000008000710                ADC_Handler
+                0x0000000008000710                HASH_RNG_Handler
+                0x0000000008000710                I2C1_EV_Handler
+                0x0000000008000710                TAMP_STAMP_Handler
+                0x0000000008000710                I2C3_ER_Handler
+                0x0000000008000710                WWDG_Handler
+                0x0000000008000710                EXTI4_Handler
+                0x0000000008000710                I2C3_EV_Handler
+                0x0000000008000710                DMA1_Stream1_Handler
+                0x0000000008000710                DMA2_Stream4_Handler
+                0x0000000008000710                DMA1_Stream7_Handler
+                0x0000000008000710                OTG_FS_Handler
+                0x0000000008000710                ETH_WKUP_Handler
+                0x0000000008000710                TIM1_BRK_TIM9_Handler
+                0x0000000008000710                I2C1_ER_Handler
+                0x0000000008000710                DMA1_Stream3_Handler
+                0x0000000008000710                UsageFault_Handler
+                0x0000000008000710                TIM1_UP_TIM10_Handler
+                0x0000000008000710                CAN1_RX0_Handler
+                0x0000000008000710                TIM1_CC_Handler
+                0x0000000008000710                I2C2_ER_Handler
+                0x0000000008000710                USART6_Handler
+                0x0000000008000710                TIM8_CC_Handler
+                0x0000000008000710                CAN1_SCE_Handler
+                0x0000000008000710                DMA1_Stream0_Handler
+                0x0000000008000710                OTG_HS_EP1_OUT_Handler
+                0x0000000008000710                FSMC_Handler
+                0x0000000008000710                EXTI1_Handler
+                0x0000000008000710                EXTI3_Handler
+                0x0000000008000710                CRYP_Handler
+                0x0000000008000710                EXTI2_Handler
+                0x0000000008000710                UART4_Handler
+                0x0000000008000710                CAN2_RX1_Handler
+                0x0000000008000710                EXTI9_5_Handler
+                0x0000000008000710                TIM2_Handler
+                0x0000000008000710                USART1_Handler
+                0x0000000008000710                CAN2_SCE_Handler
+                0x0000000008000710                TIM3_Handler
+                0x0000000008000710                DMA2_Stream6_Handler
+                0x0000000008000710                Default_Handler
+                0x0000000008000710                DCMI_Handler
+                0x0000000008000710                TIM1_TRG_COM_TIM11_Handler
+                0x0000000008000710                RTC_Alarm_Handler
+                0x0000000008000710                TIM4_Handler
+                0x0000000008000710                TIM8_UP_TIM13_Handler
+                0x0000000008000710                CAN2_TX_Handler
+                0x0000000008000710                SPI2_Handler
+                0x0000000008000710                DMA2_Stream1_Handler
+                0x0000000008000710                DMA1_Stream2_Handler
+                0x0000000008000710                EXTI0_Handler
+                0x0000000008000710                TIM8_BRK_TIM12_Handler
+                0x0000000008000710                CAN2_RX0_Handler
+                0x0000000008000710                DMA2_Stream5_Handler
+                0x0000000008000710                DMA1_Stream6_Handler
+                0x0000000008000710                SDIO_Handler
+                0x0000000008000710                USART2_Handler
+                0x0000000008000710                ETH_Handler
+                0x0000000008000710                SPI1_Handler
+                0x0000000008000710                I2C2_EV_Handler
+                0x0000000008000710                DMA2_Stream2_Handler
+                0x0000000008000710                Debug_Monitor_Handler
+                0x0000000008000710                SPI3_Handler
+                0x0000000008000710                DMA2_Stream0_Handler
+                0x0000000008000710                RCC_Handler
+                0x0000000008000710                PVD_Handler
+                0x0000000008000710                UART5_Handler
+                0x0000000008000710                DMA1_Stream5_Handler
+                0x0000000008000710                TIM5_Handler
+                0x0000000008000710                TIM7_Handler
+                0x0000000008000710                TIM8_TRG_COM_TIM14_Handler
+                0x0000000008000710                CAN1_TX_Handler
+                0x0000000008000710                FPU_Handler
+                0x0000000008000710                DMA1_Stream4_Handler
+                0x0000000008000710                OTG_HS_WKUP_Handler
+                0x0000000008000710                OTG_FS_WKUP_Handler
+                0x0000000008000710                OTG_HS_EP1_IN_Handler
+                0x0000000008000716                Reset_Handler
+ .text          0x00000000080007a0      0x114 main.o
+                0x00000000080007a0                main
+                0x00000000080007bc                gpio_testing
+                0x0000000008000800                gpio_pin_toggle
+                0x000000000800083c                gpio_delay
+                0x0000000008000864                enable_processor_faults
+                0x00000000080008a0                HardFault_Handler
+                0x00000000080008a6                MemManage_Handler
+                0x00000000080008ac                BusFault_Handler
+ .text          0x00000000080008b4       0x40 HC_SR04.o
+                0x00000000080008b4                hc_sr04_send_echo
+                0x00000000080008c6                hc_sr04_get_time_lapse
+                0x00000000080008d4                hc_sr04_get_distance_in_cm
+                0x00000000080008e4                hc_sr04_get_distance_in_inch
+ .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+ .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
  .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
  .text          0x00000000080008f4        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.text*)
- .text.exit     0x00000000080008f4       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
-                0x00000000080008f4                exit
+ .text.__errno  0x00000000080008f4        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x00000000080008f4                __errno
+ .text.exit     0x0000000008000900       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+                0x0000000008000900                exit
  .text.__libc_init_array
-                0x0000000008000914       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
-                0x0000000008000914                __libc_init_array
- .text.memset   0x000000000800095c       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
-                0x000000000800095c                memset
- .text._puts_r  0x00000000080009fc       0x9c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
-                0x00000000080009fc                _puts_r
- .text.puts     0x0000000008000a98       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
-                0x0000000008000a98                puts
- .text.startup.register_fini
-                0x0000000008000aa8       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
- .text.__call_exitprocs
-                0x0000000008000abc       0xc4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
-                0x0000000008000abc                __call_exitprocs
- .text.atexit   0x0000000008000b80        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
-                0x0000000008000b80                atexit
- .text.std      0x0000000008000b8c       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .text._cleanup_r
-                0x0000000008000bdc        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000bdc                _cleanup_r
- .text.__fp_lock
-                0x0000000008000be8       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .text.__fp_unlock
-                0x0000000008000c04       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .text.__sfmoreglue
-                0x0000000008000c20       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000c20                __sfmoreglue
- .text._cleanup
-                0x0000000008000c50       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000c50                _cleanup
- .text.__sinit  0x0000000008000c64       0x54 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000c64                __sinit
- .text.__sfp    0x0000000008000cb8       0xa4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000cb8                __sfp
- .text.__sfp_lock_acquire
-                0x0000000008000d5c        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000d5c                __sfp_lock_acquire
- .text.__sfp_lock_release
-                0x0000000008000d68        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000d68                __sfp_lock_release
- .text.__sinit_lock_acquire
-                0x0000000008000d74        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000d74                __sinit_lock_acquire
- .text.__sinit_lock_release
-                0x0000000008000d80        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000d80                __sinit_lock_release
- .text.__fp_lock_all
-                0x0000000008000d8c       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000d8c                __fp_lock_all
- .text.__fp_unlock_all
-                0x0000000008000db0       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
-                0x0000000008000db0                __fp_unlock_all
- .text.__libc_fini_array
-                0x0000000008000dd4       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
-                0x0000000008000dd4                __libc_fini_array
- .text.__sfvwrite_r
-                0x0000000008000e00      0x2e0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
-                0x0000000008000e00                __sfvwrite_r
- .text._fwalk   0x00000000080010e0       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
-                0x00000000080010e0                _fwalk
- .text._fwalk_reent
-                0x0000000008001120       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
-                0x0000000008001120                _fwalk_reent
- .text.__retarget_lock_init
-                0x0000000008001168        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001168                __retarget_lock_init
- .text.__retarget_lock_init_recursive
-                0x000000000800116c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x000000000800116c                __retarget_lock_init_recursive
- .text.__retarget_lock_close
-                0x0000000008001170        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001170                __retarget_lock_close
- .text.__retarget_lock_close_recursive
-                0x0000000008001174        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001174                __retarget_lock_close_recursive
- .text.__retarget_lock_acquire
-                0x0000000008001178        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001178                __retarget_lock_acquire
- .text.__retarget_lock_acquire_recursive
-                0x000000000800117c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x000000000800117c                __retarget_lock_acquire_recursive
- .text.__retarget_lock_try_acquire
-                0x0000000008001180        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001180                __retarget_lock_try_acquire
- .text.__retarget_lock_try_acquire_recursive
-                0x0000000008001184        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001184                __retarget_lock_try_acquire_recursive
- .text.__retarget_lock_release
-                0x0000000008001188        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000008001188                __retarget_lock_release
- .text.__retarget_lock_release_recursive
-                0x000000000800118c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x000000000800118c                __retarget_lock_release_recursive
- .text._malloc_r
-                0x0000000008001190      0x574 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000008001190                _malloc_r
- .text.memmove  0x0000000008001704       0xd8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
-                0x0000000008001704                memmove
- .text.__malloc_lock
-                0x00000000080017dc        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
-                0x00000000080017dc                __malloc_lock
- .text.__malloc_unlock
-                0x00000000080017e8        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
-                0x00000000080017e8                __malloc_unlock
- .text._realloc_r
-                0x00000000080017f4      0x3e0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
-                0x00000000080017f4                _realloc_r
- .text._sbrk_r  0x0000000008001bd4       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
-                0x0000000008001bd4                _sbrk_r
- .text.__sread  0x0000000008001bf8       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
-                0x0000000008001bf8                __sread
- .text.__seofread
-                0x0000000008001c1c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
-                0x0000000008001c1c                __seofread
- .text.__swrite
-                0x0000000008001c20       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
-                0x0000000008001c20                __swrite
- .text.__sseek  0x0000000008001c60       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
-                0x0000000008001c60                __sseek
- .text.__sclose
-                0x0000000008001c80        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
-                0x0000000008001c80                __sclose
- .text._write_r
-                0x0000000008001c88       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
-                0x0000000008001c88                _write_r
- .text.__swsetup_r
-                0x0000000008001cb4       0xd0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
-                0x0000000008001cb4                __swsetup_r
- .text.__register_exitproc
-                0x0000000008001d84       0x8c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
-                0x0000000008001d84                __register_exitproc
- .text._close_r
-                0x0000000008001e10       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
-                0x0000000008001e10                _close_r
- .text._fclose_r
-                0x0000000008001e34       0xcc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
-                0x0000000008001e34                _fclose_r
- .text.fclose   0x0000000008001f00       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
-                0x0000000008001f00                fclose
- .text.__sflush_r
-                0x0000000008001f10      0x130 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
-                0x0000000008001f10                __sflush_r
- .text._fflush_r
-                0x0000000008002040       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
-                0x0000000008002040                _fflush_r
- .text.fflush   0x000000000800209c       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
-                0x000000000800209c                fflush
- .text._malloc_trim_r
-                0x00000000080020c0       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
-                0x00000000080020c0                _malloc_trim_r
- .text._free_r  0x0000000008002160      0x208 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
-                0x0000000008002160                _free_r
- .text._lseek_r
-                0x0000000008002368       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
-                0x0000000008002368                _lseek_r
- .text.__swhatbuf_r
-                0x0000000008002394       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
-                0x0000000008002394                __swhatbuf_r
- .text.__smakebuf_r
-                0x00000000080023f0       0x98 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
-                0x00000000080023f0                __smakebuf_r
- .text._read_r  0x0000000008002488       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
-                0x0000000008002488                _read_r
- .text.cleanup_glue
-                0x00000000080024b4       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
-                0x00000000080024b4                cleanup_glue
- .text._reclaim_reent
-                0x00000000080024d0       0x84 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
-                0x00000000080024d0                _reclaim_reent
- .text._fstat_r
-                0x0000000008002554       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
-                0x0000000008002554                _fstat_r
- .text._isatty_r
-                0x0000000008002580       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
-                0x0000000008002580                _isatty_r
- .text.findslot
-                0x00000000080025a4       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .text.checkerror.part.0
-                0x00000000080025dc       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .text._swiread
-                0x00000000080025f8       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x00000000080025f8                _swiread
- .text._read    0x0000000008002620       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002620                _read
- .text._swilseek
-                0x0000000008002670       0x98 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002670                _swilseek
- .text._lseek   0x0000000008002708        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002708                _lseek
- .text._swiwrite
-                0x000000000800270c       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x000000000800270c                _swiwrite
- .text._write   0x0000000008002734       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002734                _write
- .text._swiclose
-                0x00000000080027a8       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x00000000080027a8                _swiclose
- .text._close   0x00000000080027cc       0x68 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x00000000080027cc                _close
- .text._getpid  0x0000000008002834        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002834                _getpid
- .text._sbrk    0x0000000008002838       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002838                _sbrk
- .text._swistat
-                0x0000000008002884       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002884                _swistat
- .text._fstat   0x00000000080028cc       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x00000000080028cc                _fstat
- .text._stat    0x00000000080028e8       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x00000000080028e8                _stat
- .text._swiopen
-                0x0000000008002924       0xcc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002924                _swiopen
- .text._open    0x00000000080029f0       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x00000000080029f0                _open
- .text._get_semihosting_exts
-                0x0000000008002a04       0xcc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002a04                _get_semihosting_exts
- .text.initialise_semihosting_exts
-                0x0000000008002ad0       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .text._has_ext_exit_extended
-                0x0000000008002b08       0x18 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002b08                _has_ext_exit_extended
- .text._has_ext_stdout_stderr
-                0x0000000008002b20       0x18 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002b20                _has_ext_stdout_stderr
- .text.initialise_monitor_handles
-                0x0000000008002b38      0x108 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002b38                initialise_monitor_handles
- .text._link    0x0000000008002c40       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002c40                _link
- .text._unlink  0x0000000008002c50       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002c50                _unlink
- .text._gettimeofday
-                0x0000000008002c8c       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002c8c                _gettimeofday
- .text._clock   0x0000000008002cb8       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002cb8                _clock
- .text._times   0x0000000008002ccc       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002ccc                _times
- .text._isatty  0x0000000008002cec       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002cec                _isatty
- .text._system  0x0000000008002d2c       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002d2c                _system
- .text._rename  0x0000000008002d74       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002d74                _rename
- .text._exit    0x0000000008002db4       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
-                0x0000000008002db4                _exit
- .text._kill_shared
-                0x0000000008002dc8       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
-                0x0000000008002dc8                _kill_shared
- .text._kill    0x0000000008002df8       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
-                0x0000000008002df8                _kill
- .text.__errno  0x0000000008002e14        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
-                0x0000000008002e14                __errno
+                0x0000000008000928       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+                0x0000000008000928                __libc_init_array
+ .text.memset   0x0000000008000970       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x0000000008000970                memset
  *(.init)
- .init          0x0000000008002e20        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
-                0x0000000008002e20                _init
- .init          0x0000000008002e24        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0000000008000980        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008000980                _init
+ .init          0x0000000008000984        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008002e2c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
-                0x0000000008002e2c                _fini
- .fini          0x0000000008002e30        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .fini          0x000000000800098c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
+                0x000000000800098c                _fini
+ .fini          0x0000000008000990        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.rodata)
- .rodata        0x0000000008002e38       0x4d main.o
  *(.rodata.*)
- *fill*         0x0000000008002e85        0x3 
  .rodata._global_impure_ptr
-                0x0000000008002e88        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
-                0x0000000008002e88                _global_impure_ptr
- .rodata._puts_r.str1.4
-                0x0000000008002e8c        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
- *fill*         0x0000000008002e8e        0x2 
- .rodata._get_semihosting_exts.str1.4
-                0x0000000008002e90       0x16 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- *fill*         0x0000000008002ea6        0x2 
- .rodata.initialise_monitor_handles.str1.4
-                0x0000000008002ea8        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x0000000008002eac                . = ALIGN (0x4)
-                0x0000000008002eac                _etext = .
-                0x0000000008002eb8                _lo_data = LOADADDR (.data)
+                0x0000000008000998        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000008000998                _global_impure_ptr
+                0x000000000800099c                . = ALIGN (0x4)
+                0x000000000800099c                _etext = .
+                0x00000000080009a8                _lo_data = LOADADDR (.data)
 
-.glue_7         0x0000000008002eac        0x0
- .glue_7        0x0000000008002eac        0x0 linker stubs
+.glue_7         0x000000000800099c        0x0
+ .glue_7        0x000000000800099c        0x0 linker stubs
 
-.glue_7t        0x0000000008002eac        0x0
- .glue_7t       0x0000000008002eac        0x0 linker stubs
+.glue_7t        0x000000000800099c        0x0
+ .glue_7t       0x000000000800099c        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008002eac        0x0
- .vfp11_veneer  0x0000000008002eac        0x0 linker stubs
+.vfp11_veneer   0x000000000800099c        0x0
+ .vfp11_veneer  0x000000000800099c        0x0 linker stubs
 
-.v4_bx          0x0000000008002eac        0x0
- .v4_bx         0x0000000008002eac        0x0 linker stubs
+.v4_bx          0x000000000800099c        0x0
+ .v4_bx         0x000000000800099c        0x0 linker stubs
 
-.iplt           0x0000000008002eac        0x0
- .iplt          0x0000000008002eac        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x000000000800099c        0x0
+ .iplt          0x000000000800099c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.eh_frame       0x0000000008002eac        0x4
- .eh_frame      0x0000000008002eac        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
- .eh_frame      0x0000000008002eac        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+.eh_frame       0x000000000800099c        0x4
+ .eh_frame      0x000000000800099c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x000000000800099c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
 
-.ARM.extab      0x0000000008002eb0        0x0
- .ARM.extab     0x0000000008002eb0        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
+.ARM.extab      0x00000000080009a0        0x0
+ .ARM.extab     0x00000000080009a0        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
 
-.ARM.exidx      0x0000000008002eb0        0x8
- .ARM.exidx     0x0000000008002eb0        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
+.ARM.exidx      0x00000000080009a0        0x8
+ .ARM.exidx     0x00000000080009a0        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
                                          0x10 (size before relaxing)
 
-.rel.dyn        0x0000000008002eb8        0x0
- .rel.iplt      0x0000000008002eb8        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x00000000080009a8        0x0
+ .rel.iplt      0x00000000080009a8        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.data           0x0000000020000000      0x970 load address 0x0000000008002eb8
+.data           0x0000000020000000       0x74 load address 0x00000000080009a8
                 0x0000000020000000                _sdata = .
  *(.data)
  .data          0x0000000020000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
  .data          0x0000000020000000        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x0000000020000000                __dso_handle
- .data          0x0000000020000004      0x118 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
-                0x000000002000000c                __stack_base__
- .data          0x000000002000011c        0x0 gpio_driver.o
- .data          0x000000002000011c        0x0 stm32f4_startup.o
- .data          0x000000002000011c        0x0 main.o
- .data          0x000000002000011c        0x0 HC_SR04.o
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-strlen.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memchr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memcpy.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
- .data          0x000000002000011c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .data          0x0000000020000004        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .data          0x0000000020000004        0x4 syscalls.o
+                0x0000000020000004                environ
+ .data          0x0000000020000008        0x0 gpio_driver.o
+ .data          0x0000000020000008        0x0 stm32f4_startup.o
+ .data          0x0000000020000008        0x0 main.o
+ .data          0x0000000020000008        0x0 HC_SR04.o
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.data.*)
  .data._impure_ptr
-                0x000000002000011c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
-                0x000000002000011c                _impure_ptr
+                0x0000000020000008        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000020000008                _impure_ptr
  .data.impure_data
-                0x0000000020000120      0x428 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
- .data.__atexit_recursive_mutex
-                0x0000000020000548        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
-                0x0000000020000548                __atexit_recursive_mutex
- .data.__malloc_av_
-                0x000000002000054c      0x408 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x000000002000054c                __malloc_av_
- .data.__malloc_sbrk_base
-                0x0000000020000954        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020000954                __malloc_sbrk_base
- .data.__malloc_trim_threshold
-                0x0000000020000958        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020000958                __malloc_trim_threshold
- .data.__heap_limit
-                0x000000002000095c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
-                0x000000002000095c                __heap_limit
- .data.supports_ext_exit_extended
-                0x0000000020000960        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .data.supports_ext_stdout_stderr
-                0x0000000020000964        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
+                0x000000002000000c       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
  *(.init_array)
- .init_array    0x0000000020000968        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .init_array    0x000000002000006c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.fini_array)
- .fini_array    0x000000002000096c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0000000020000970                . = ALIGN (0x4)
-                0x0000000020000970                _edata = .
+ .fini_array    0x0000000020000070        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x0000000020000074                . = ALIGN (0x4)
+                0x0000000020000074                _edata = .
 
-.igot.plt       0x0000000020000970        0x0 load address 0x0000000008003828
- .igot.plt      0x0000000020000970        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+.igot.plt       0x0000000020000074        0x0 load address 0x0000000008000a1c
+ .igot.plt      0x0000000020000074        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.init_array.00000
-                0x0000000020000970        0x4 load address 0x0000000008003828
- .init_array.00000
-                0x0000000020000970        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
-
-.bss            0x0000000020000974      0x128
-                0x0000000020000974                _sbss = .
-                0x0000000020000974                __bss_start__ = _sbss
+.bss            0x0000000020000074       0x30
+                0x0000000020000074                _sbss = .
+                0x0000000020000074                __bss_start__ = _sbss
  *(.bss)
- .bss           0x0000000020000974        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
- .bss           0x0000000020000974       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
- .bss           0x0000000020000990        0x0 gpio_driver.o
- .bss           0x0000000020000990        0x0 stm32f4_startup.o
- .bss           0x0000000020000990        0x0 main.o
- .bss           0x0000000020000990        0x0 HC_SR04.o
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-strlen.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memchr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memcpy.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
- .bss           0x0000000020000990        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .bss           0x0000000020000074        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
+ .bss           0x0000000020000074       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .bss           0x0000000020000090        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+ .bss           0x0000000020000090        0x8 syscalls.o
+                0x0000000020000090                __env
+ .bss           0x0000000020000098        0x0 gpio_driver.o
+ .bss           0x0000000020000098        0x0 stm32f4_startup.o
+ .bss           0x0000000020000098        0x0 main.o
+ .bss           0x0000000020000098        0x0 HC_SR04.o
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+ .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.bss.*)
- .bss.__malloc_current_mallinfo
-                0x0000000020000990       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000020000990                __malloc_current_mallinfo
- .bss.__malloc_max_sbrked_mem
-                0x00000000200009b8        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x00000000200009b8                __malloc_max_sbrked_mem
- .bss.__malloc_max_total_mem
-                0x00000000200009bc        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x00000000200009bc                __malloc_max_total_mem
- .bss.__malloc_top_pad
-                0x00000000200009c0        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
-                0x00000000200009c0                __malloc_top_pad
- .bss.heap_end.6330
-                0x00000000200009c4        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .bss.monitor_stderr
-                0x00000000200009c8        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .bss.monitor_stdin
-                0x00000000200009cc        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .bss.monitor_stdout
-                0x00000000200009d0        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .bss.openfiles
-                0x00000000200009d4       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
  *(COMMON)
- COMMON         0x0000000020000a74       0x21 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
-                0x0000000020000a74                __lock___atexit_recursive_mutex
-                0x0000000020000a78                __lock___arc4random_mutex
-                0x0000000020000a7c                __lock___env_recursive_mutex
-                0x0000000020000a80                __lock___sinit_recursive_mutex
-                0x0000000020000a84                __lock___malloc_recursive_mutex
-                0x0000000020000a88                __lock___at_quick_exit_mutex
-                0x0000000020000a8c                __lock___dd_hash_mutex
-                0x0000000020000a90                __lock___tz_mutex
-                0x0000000020000a94                __lock___sfp_recursive_mutex
- *fill*         0x0000000020000a95        0x3 
- COMMON         0x0000000020000a98        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
-                0x0000000020000a98                errno
-                0x0000000020000a9c                . = ALIGN (0x4)
-                0x0000000020000a9c                _ebss = .
-                0x0000000020000a9c                __bss_end__ = _ebss
-                0x0000000020000a9c                . = ALIGN (0x4)
-                0x0000000020000a9c                end = .
-                0x0000000020000a9c                __end__ = end
+ COMMON         0x0000000020000098        0xc main.o
+                0x0000000020000098                handler
+                0x00000000200000a4                . = ALIGN (0x4)
+                0x00000000200000a4                _ebss = .
+                0x00000000200000a4                __bss_end__ = _ebss
+                0x00000000200000a4                . = ALIGN (0x4)
+                0x00000000200000a4                end = .
+                0x00000000200000a4                __end__ = end
 OUTPUT(final.elf elf32-littlearm)
 LOAD linker stubs
 
@@ -803,135 +327,42 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000001e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
  .ARM.attributes
-                0x000000000000004c       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/rdimon-crt0.o
+                0x000000000000004c       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
  .ARM.attributes
-                0x0000000000000068       0x2e gpio_driver.o
+                0x0000000000000068       0x2e syscalls.o
  .ARM.attributes
-                0x0000000000000096       0x2e stm32f4_startup.o
+                0x0000000000000096       0x2e gpio_driver.o
  .ARM.attributes
-                0x00000000000000c4       0x2e main.o
+                0x00000000000000c4       0x2e stm32f4_startup.o
  .ARM.attributes
-                0x00000000000000f2       0x2e HC_SR04.o
+                0x00000000000000f2       0x2e main.o
  .ARM.attributes
-                0x0000000000000120       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
+                0x0000000000000120       0x2e HC_SR04.o
  .ARM.attributes
-                0x000000000000014e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-impure.o)
+                0x000000000000014e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x000000000000017c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
+                0x000000000000017c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000000000001aa       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
+                0x00000000000001aa       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000000000001d8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
+                0x00000000000001d8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x0000000000000206       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-strlen.o)
+                0x0000000000000206       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000222       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
+                0x0000000000000234       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
  .ARM.attributes
-                0x0000000000000250       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
- .ARM.attributes
-                0x000000000000027e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .ARM.attributes
-                0x00000000000002ac       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
- .ARM.attributes
-                0x00000000000002da       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
- .ARM.attributes
-                0x0000000000000308       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
- .ARM.attributes
-                0x0000000000000336       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
- .ARM.attributes
-                0x0000000000000364       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
- .ARM.attributes
-                0x0000000000000392       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memchr.o)
- .ARM.attributes
-                0x00000000000003ae       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memcpy.o)
- .ARM.attributes
-                0x00000000000003ca       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
- .ARM.attributes
-                0x00000000000003f8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
- .ARM.attributes
-                0x0000000000000426       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
- .ARM.attributes
-                0x0000000000000454       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
- .ARM.attributes
-                0x0000000000000482       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
- .ARM.attributes
-                0x00000000000004b0       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
- .ARM.attributes
-                0x00000000000004de       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
- .ARM.attributes
-                0x000000000000050c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
- .ARM.attributes
-                0x000000000000053a       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
- .ARM.attributes
-                0x0000000000000568       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
- .ARM.attributes
-                0x0000000000000596       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
- .ARM.attributes
-                0x00000000000005c4       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
- .ARM.attributes
-                0x00000000000005f2       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
- .ARM.attributes
-                0x0000000000000620       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
- .ARM.attributes
-                0x000000000000064e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
- .ARM.attributes
-                0x000000000000067c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
- .ARM.attributes
-                0x00000000000006aa       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
- .ARM.attributes
-                0x00000000000006d8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
- .ARM.attributes
-                0x0000000000000706       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .ARM.attributes
-                0x0000000000000734       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
- .ARM.attributes
-                0x0000000000000762       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
- .ARM.attributes
-                0x0000000000000790       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
- .ARM.attributes
-                0x00000000000007be       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
- .ARM.attributes
-                0x00000000000007ec       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0000000000000262       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
 
 .comment        0x0000000000000000       0x4c
- .comment       0x0000000000000000       0x4c gpio_driver.o
+ .comment       0x0000000000000000       0x4c syscalls.o
                                          0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d gpio_driver.o
  .comment       0x000000000000004c       0x4d stm32f4_startup.o
  .comment       0x000000000000004c       0x4d main.o
  .comment       0x000000000000004c       0x4d HC_SR04.o
 
-.debug_frame    0x0000000000000000      0xdd4
- .debug_frame   0x0000000000000000       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-exit.o)
- .debug_frame   0x0000000000000028       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-init.o)
- .debug_frame   0x0000000000000054       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memset.o)
- .debug_frame   0x000000000000008c       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-puts.o)
- .debug_frame   0x00000000000000d8       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000000000000134       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-atexit.o)
- .debug_frame   0x0000000000000154      0x14c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-findfp.o)
- .debug_frame   0x00000000000002a0       0x34 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fini.o)
- .debug_frame   0x00000000000002d4       0x64 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fvwrite.o)
- .debug_frame   0x0000000000000338       0x54 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fwalk.o)
- .debug_frame   0x000000000000038c       0xb0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lock.o)
- .debug_frame   0x000000000000043c       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mallocr.o)
- .debug_frame   0x0000000000000488       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-memmove.o)
- .debug_frame   0x00000000000004c8       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-mlock.o)
- .debug_frame   0x00000000000004f8       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reallocr.o)
- .debug_frame   0x0000000000000540       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-sbrkr.o)
- .debug_frame   0x000000000000056c       0x8c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-stdio.o)
- .debug_frame   0x00000000000005f8       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-writer.o)
- .debug_frame   0x0000000000000624       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-wsetup.o)
- .debug_frame   0x0000000000000650       0x34 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-__atexit.o)
- .debug_frame   0x0000000000000684       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-closer.o)
- .debug_frame   0x00000000000006b0       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fclose.o)
- .debug_frame   0x00000000000006ec       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fflush.o)
- .debug_frame   0x0000000000000748       0x8c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-freer.o)
- .debug_frame   0x00000000000007d4       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-lseekr.o)
- .debug_frame   0x0000000000000800       0x6c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-makebuf.o)
- .debug_frame   0x000000000000086c       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-readr.o)
- .debug_frame   0x0000000000000898       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-reent.o)
- .debug_frame   0x00000000000008f8       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-fstatr.o)
- .debug_frame   0x0000000000000924       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-isattyr.o)
- .debug_frame   0x0000000000000950      0x3fc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-syscalls.o)
- .debug_frame   0x0000000000000d4c       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_exit.o)
- .debug_frame   0x0000000000000d74       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/librdimon.a(rdimon-_kill.o)
- .debug_frame   0x0000000000000db4       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc.a(lib_a-errno.o)
+.debug_frame    0x0000000000000000       0x94
+ .debug_frame   0x0000000000000000       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000020       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000048       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000074       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
