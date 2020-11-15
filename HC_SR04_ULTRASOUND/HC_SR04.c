@@ -17,20 +17,18 @@ void hc_sr04_send_echo(int time_in_us)
 	//on getting high start counting the time
 }
 
-int hc_sr04_get_time_lapse(){
-
+int hc_sr04_get_time_lapse()
+{
+	return 0;
 }
 
 
 float hc_sr04_get_distance_in_cm()
 {
-
+	return 0;
 }
 
 float hc_sr04_get_distance_in_inch()
 {
-
+	return 0;
 }
-
-
-#endif

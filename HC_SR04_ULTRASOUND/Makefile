@@ -6,7 +6,9 @@ CFLAGS= -c -mcpu=$(MARCH) -mthumb -mfloat-abi=soft -std=gnu11 -O0 -Wall -Werror
 LDFLAGS= -mcpu=$(MARCH) -mthumb -mfloat-abi=soft --specs=$(SPECS) -T $(LFILE) -Wl,-Map=final.map
 OUTPUT= final.elf
 
-all: clean *.o $(OUTPUT) size_info launch_openocd
+build: clean *.o $(OUTPUT) size_info 
+
+run: clean *.o $(OUTPUT) size_info launch_openocd
 
 *.o: *.c
 	$(CC) $(CFLAGS) $^

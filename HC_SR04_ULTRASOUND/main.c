@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "main.h"
 #include "HC_SR04.h"
+#include "gpio_driver.h"
 
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
