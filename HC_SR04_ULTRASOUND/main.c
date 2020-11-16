@@ -3,7 +3,7 @@
 #include "main.h"
 #include "HC_SR04.h"
 #include "gpio_driver.h"
-
+#include "timer_driver.h"
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
@@ -30,9 +30,17 @@ int main(void){
 	initialise_monitor_handles();
 #endif
 
-while(1){
+	Timer_Handler_t THandler;
+	THandler.pTimx = TIM2;
+	THandler.Timer_Config.PRESCALER = 10;
+	THandler.Timer_Config.AUTO_RELOAD_VALUE = 1000;
+	Timer_init(&THandler);
+	Timer_enable(THandler.pTimx);
 
 	gpio_testing(GPIO_PIN_14);
+
+while(1){
+
 	gpio_pin_toggle(GPIOD, GPIO_PIN_14);
 
 }

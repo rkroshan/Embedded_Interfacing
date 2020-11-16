@@ -117,6 +117,6 @@ typedef struct{
 
 #define TIM2_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 0))
 #define TIM2_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 0))
-#define TIM2_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 0)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 0)); }while(0)
+#define TIM2_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 0)) ; (RCC->RCC_APB1RSTR &= ~(1 << 0)); }while(0)
 
 #endif

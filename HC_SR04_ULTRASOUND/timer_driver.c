@@ -19,16 +19,22 @@ void Timer_init(Timer_Handler_t* handler)
 
     //set the auto reload register to setup no of counts in counter
     handler->pTimx->TIMx_ARR = handler->Timer_Config.AUTO_RELOAD_VALUE;
+
+    //set the UG Flag
+    handler->pTimx->TIMx_EGR |= (1 << 0) ;
+
+    //clear UDIS Flag
+    handler->pTimx->TIMx_CR1 &= ~(1 << 1) ;
 }
 
 void Timer_enable(TIMx_RegDef_t* pTimx)
 {
-    pTimx->TIMx_CCR1 |= (1 << 0);
+    pTimx->TIMx_CR1 |= (1 << 0);
 }
 
 void Timer_disable(TIMx_RegDef_t* pTimx)
 {
-    pTimx->TIMx_CCR1 &= ~(1 << 0);
+    pTimx->TIMx_CR1 &= ~(1 << 0);
 }
 
 void wait_till_Timer_event(TIMx_RegDef_t* pTimx)
