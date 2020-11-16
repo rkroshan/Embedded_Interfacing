@@ -175,22 +175,22 @@ LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/
                 0x000000000800071c                OTG_FS_WKUP_Handler
                 0x000000000800071c                OTG_HS_EP1_IN_Handler
                 0x0000000008000722                Reset_Handler
- .text          0x00000000080007ac      0x138 main.o
+ .text          0x00000000080007ac      0x148 main.o
                 0x00000000080007ac                main
-                0x00000000080007ec                gpio_testing
-                0x0000000008000830                gpio_pin_toggle
-                0x000000000800086c                gpio_delay
-                0x0000000008000894                enable_processor_faults
-                0x00000000080008d0                HardFault_Handler
-                0x00000000080008d6                MemManage_Handler
-                0x00000000080008dc                BusFault_Handler
- .text          0x00000000080008e4       0x40 HC_SR04.o
-                0x00000000080008e4                hc_sr04_send_echo
-                0x00000000080008f6                hc_sr04_get_time_lapse
-                0x0000000008000904                hc_sr04_get_distance_in_cm
-                0x0000000008000914                hc_sr04_get_distance_in_inch
- .text          0x0000000008000924      0x138 timer_driver.o
-                0x0000000008000924                Timer_init
+                0x00000000080007fc                gpio_testing
+                0x0000000008000840                gpio_pin_toggle
+                0x000000000800087c                gpio_delay
+                0x00000000080008a4                enable_processor_faults
+                0x00000000080008e0                HardFault_Handler
+                0x00000000080008e6                MemManage_Handler
+                0x00000000080008ec                BusFault_Handler
+ .text          0x00000000080008f4       0x40 HC_SR04.o
+                0x00000000080008f4                hc_sr04_send_echo
+                0x0000000008000906                hc_sr04_get_time_lapse
+                0x0000000008000914                hc_sr04_get_distance_in_cm
+                0x0000000008000924                hc_sr04_get_distance_in_inch
+ .text          0x0000000008000934      0x128 timer_driver.o
+                0x0000000008000934                Timer_init
                 0x000000000800098e                Timer_enable
                 0x00000000080009ac                Timer_disable
                 0x00000000080009ca                wait_till_Timer_event

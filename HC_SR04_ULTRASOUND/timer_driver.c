@@ -24,7 +24,8 @@ void Timer_init(Timer_Handler_t* handler)
     handler->pTimx->TIMx_EGR |= (1 << 0) ;
 
     //clear UDIS Flag
-    handler->pTimx->TIMx_CR1 &= ~(1 << 1) ;
+    // handler->pTimx->TIMx_CR1 &= ~(1 << 1) ;
+    // handler->pTimx->TIMx_CR1 |= (1 << 1) ;
 }
 
 void Timer_enable(TIMx_RegDef_t* pTimx)

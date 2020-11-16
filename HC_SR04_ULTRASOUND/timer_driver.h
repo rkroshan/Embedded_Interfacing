@@ -11,7 +11,7 @@
 typedef struct{
 
     uint16_t PRESCALER;
-    uint16_t AUTO_RELOAD_VALUE;
+    uint32_t AUTO_RELOAD_VALUE;
 
 }Timer_Config_t;
 

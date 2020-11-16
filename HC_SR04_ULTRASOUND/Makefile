@@ -37,5 +37,7 @@ build_itm:
 	$(CC) $(CFLAGS_ITM) *.c  
 
 run: clean build $(OUTPUT) size_info launch_openocd
+all: clean build $(OUTPUT) size_info 
 
 run_itm: clean build_itm $(OUTPUT_ITM) size_info_itm launch_openocd
+all_itm: clean build_itm $(OUTPUT_ITM) size_info_itm 

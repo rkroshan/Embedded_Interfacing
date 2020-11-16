@@ -33,16 +33,22 @@ int main(void){
 	Timer_Handler_t THandler;
 	THandler.pTimx = TIM2;
 	THandler.Timer_Config.PRESCALER = 10;
-	THandler.Timer_Config.AUTO_RELOAD_VALUE = 1000;
+	THandler.Timer_Config.AUTO_RELOAD_VALUE = 2000000;
 	Timer_init(&THandler);
 	Timer_enable(THandler.pTimx);
 
 	gpio_testing(GPIO_PIN_14);
 
 while(1){
-
+#ifdef SEMIHOSTING
+	printf("CNT =%ld\n", THandler.pTimx->TIMx_CNT);
+	if(THandler.pTimx->TIMx_SR & (1 << 0)){
+	printf("SR =%ld\n", THandler.pTimx->TIMx_SR);
+	}
+#endif
+	while(!(THandler.pTimx->TIMx_SR & (1 << 0)));
 	gpio_pin_toggle(GPIOD, GPIO_PIN_14);
-
+	
 }
 	
 }
@@ -61,11 +67,11 @@ void gpio_testing(uint8_t PinNumber){
 void gpio_pin_toggle(GPIO_RegDef_t* pGpiox, uint8_t PinNumber){
 	GPIO_writeOutputInPin(pGpiox,PinNumber, GPIO_BIT_RESET);
 #ifdef SEMIHOSTING
-	printf("It's working 1\n");
+	//printf("It's working 1\n");
 #endif
 	gpio_delay(GPIO_DELAY);
 #ifdef SEMIHOSTING
-	printf("It's working 2\n");
+	//printf("It's working 2\n");
 #endif
 	GPIO_writeOutputInPin(pGpiox,PinNumber,GPIO_BIT_SET);
 	gpio_delay(GPIO_DELAY);
