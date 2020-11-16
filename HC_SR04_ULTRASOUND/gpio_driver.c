@@ -166,9 +166,9 @@ uint16_t GPIO_readInputFromPort(GPIO_RegDef_t* pGpiox)
 void GPIO_writeOutputInPin(GPIO_RegDef_t* pGpiox, uint8_t PinNumber, uint8_t Value)
 {
     if(Value == GPIO_BIT_SET){
-        pGpiox->BSRR |= (GPIO_BIT_SET << PinNumber);
+        pGpiox->BSRR |= (1 << PinNumber);
     }else{
-        pGpiox->BSRR |= (GPIO_BIT_RESET << (PinNumber + 16));
+        pGpiox->BSRR |= (1 << (PinNumber + 16));
     }
 }
 
