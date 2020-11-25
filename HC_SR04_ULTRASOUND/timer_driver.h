@@ -41,6 +41,35 @@ typedef struct{
     TIMx_RegDef_t* pTimx;
 }Timer_IC_Handler_t;
 
+typedef struct{
+    uint8_t OCMode; /*possible values @OCMode*/
+    uint8_t OCPreloadEnable; /*possible values @OCPreloadEnable*/
+    uint8_t OCPolarity;  /*possible values @OCPolarity*/
+}Timer_OC_Config_t;
+
+typedef struct{
+    Timer_OC_Config_t Timer_OC_Config;
+    Timer_Config_t Timer_Config;
+    TIMx_RegDef_t* pTimx;
+}Timer_OC_Handler_t;
+
+/*possible values @OCPolarity*/
+#define OCPolarity_HIGH     0
+#define OCPolarity_LOW      1
+
+/*possible values @OCPreloadEnable*/
+#define OCPreloadEnable_ENABLE      1
+#define OCPreloadEnable_DISABLE     0
+
+/*possible values @OCMode*/
+#define OCMode_FROZEN           0
+#define OCMode_HIGH_ON_MATCH    1
+#define OCMode_LOW_ON_MATCH     2
+#define OCMode_TOGGLE_ON_MATCH  3
+#define OCMode_FORCED_LOW       4
+#define OCMode_FORCED_HIGH      5
+#define OCMode_PWM_MODE_1       6   //active if CNT < CCR1 else low
+#define OCMode_PWM_MODE_2       7   //active if CNT > CCR1 else low
 
 /*possible values @Capture_Prescaler*/
 #define CAPTURE_PSC_NONE                0
@@ -84,5 +113,8 @@ void Timer_interrupt_callback_func(Timer_Handler_t* handler, Timer_s_Handler_t* 
 void Timer_IC_init(Timer_IC_Handler_t* handler);
 void Timer_IC_enable(TIMx_RegDef_t* pTimx);
 void Timer_IC_IT_enable(TIMx_RegDef_t* pTimx);
+
+//Output Compare Timer Handling Function
+
 
 #endif
