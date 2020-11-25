@@ -62,7 +62,7 @@ void gpio_toggle(GPIO_RegDef_t* pGpiox, uint8_t PinNumber)
 	pGpiox->ODR ^= (1 << PinNumber);
 }
 
-void gpio_testing(uint8_t PinNumber){
+void gpio_init_test(uint8_t PinNumber){
 	handler.pGpiox = GPIOD;
 	handler.Gpio_PinConfig.PinNumber = PinNumber;
 	handler.Gpio_PinConfig.PinMode = GPIO_MODE_OUTPUT;
@@ -95,8 +95,8 @@ void testing_output_capture_with_interrupt(void)
 {
 	output_capture_with_interrupt = true;
 	TOCHandler.pTimx = TIM2;
-	TOCHandler.Timer_Config.PRESCALER = 15;
-	TOCHandler.Timer_Config.AUTO_RELOAD_VALUE = 20000;
+	TOCHandler.Timer_Config.PRESCALER = 15999;
+	TOCHandler.Timer_Config.AUTO_RELOAD_VALUE = 2000;
 	TOCHandler.Timer_OC_Config.OCMode = OCMode_PWM_MODE_1;
 	TOCHandler.Timer_OC_Config.OCPolarity = OCPolarity_HIGH;
 	TOCHandler.Timer_OC_Config.OCPreloadEnable = OCPreloadEnable_DISABLE;
@@ -227,6 +227,23 @@ void TIM2_Handler(void)
 			TIM2->TIMx_SR &= ~(1 << 1);
 		}
 	}else if(output_capture_with_interrupt){
+
+		//check for overcapture flag is set
+		if(TIM2->TIMx_SR & (1 << 9)){
+			#ifdef SEMIHOSTING
+			printf("ONP = %ld\n",TIM2->TIMx_CCR1);
+		#endif
+		//clear the CC1OF bit
+		TIM2->TIMx_SR &= ~(1 << 9);	
+		}
+
+		if(TIM2->TIMx_SR & (1 << 1)){
+			#ifdef SEMIHOSTING
+			printf("CNP = %ld\n",TIM2->TIMx_CCR1);
+		#endif
+			//clear the CC1IF flag		//no need as CC1IF flag is zero when we read the CCR1 register still if not used semihosting then their is a need
+			TIM2->TIMx_SR &= ~(1 << 1);
+		}
 
 	}
 	
