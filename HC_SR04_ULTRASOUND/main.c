@@ -30,6 +30,7 @@ void testing_input_capture_with_interrupt(void);
 void testing_output_capture_with_interrupt(void); //it will generate pwm square wave which will toggle led
 bool basic_timer_interrupt = false;
 bool input_capture_with_interrupt = false;
+bool output_capture_with_interrupt = false;
 
 Timer_s_Handler_t TSHandler; //need for testing_basic_timer_with_interrupt testing
 
@@ -49,7 +50,7 @@ int main(void){
 	// void testing_basic_timer();
 	// void testing_basic_timer_with_interrupt(void);
 	// void testing_input_capture_with_interrupt(void);
-
+	testing_output_capture_with_interrupt();
 
 	while(1){
 		//just for safety to prevent memory fault
@@ -92,7 +93,35 @@ void gpio_delay(uint32_t time){
 
 void testing_output_capture_with_interrupt(void)
 {
+	output_capture_with_interrupt = true;
+	TOCHandler.pTimx = TIM2;
+	TOCHandler.Timer_Config.PRESCALER = 15;
+	TOCHandler.Timer_Config.AUTO_RELOAD_VALUE = 20000;
+	TOCHandler.Timer_OC_Config.OCMode = OCMode_PWM_MODE_1;
+	TOCHandler.Timer_OC_Config.OCPolarity = OCPolarity_HIGH;
+	TOCHandler.Timer_OC_Config.OCPreloadEnable = OCPreloadEnable_DISABLE;
+	TOCHandler.Timer_OC_Config.OC_Period = (TOCHandler.Timer_Config.AUTO_RELOAD_VALUE/2); //50% duty cycle
 
+	Timer_OC_init(&TOCHandler);
+	Timer_OC_enable(TOCHandler.pTimx);
+	Timer_priorityConfig(IRQ_NUM_TIM2,15);
+	Timer_interruptConfig(IRQ_NUM_TIM2,TIMER_ENABLE);
+	Timer_OC_IT_enable(TOCHandler.pTimx);
+
+	//output pin config for TIM2 channel 1
+	AFhandler.pGpiox = GPIOA;
+	AFhandler.Gpio_PinConfig.PinNumber = GPIO_PIN_5;
+	AFhandler.Gpio_PinConfig.PinMode = GPIO_MODE_ALTFUNC;
+	AFhandler.Gpio_PinConfig.PinAltFuncMode = GPIO_AF1;
+
+	Gpio_init(&AFhandler);
+
+	//enable the Timer
+	Timer_enable(TOCHandler.pTimx,NULL);
+
+	while(1){
+		//just for looping forever
+	}
 }
 
 void testing_general_timer(void)
@@ -197,6 +226,8 @@ void TIM2_Handler(void)
 			//clear the CC1IF flag		//no need as CC1IF flag is zero when we read the CCR1 register still if not used semihosting then their is a need
 			TIM2->TIMx_SR &= ~(1 << 1);
 		}
+	}else if(output_capture_with_interrupt){
+
 	}
 	
 
