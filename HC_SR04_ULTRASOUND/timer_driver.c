@@ -40,6 +40,52 @@ void Timer_init(Timer_Handler_t* handler, Timer_s_Handler_t* shandler)
 
 }
 
+void Timer_OC_init(Timer_OC_Handler_t* handler)
+{
+    //Enable the peripheral clock
+    Timer_PeriCLK(handler->pTimx,NULL,TIMER_ENABLE);
+
+    //reset the Timer register
+    Timer_reset(handler->pTimx,NULL);
+
+    //clear the UIF Flag
+    handler->pTimx->TIMx_SR &= ~(1 << 0);
+
+    //set the prescalar 
+    handler->pTimx->TIMx_PSC = handler->Timer_Config.PRESCALER;
+
+    //set the autoreload register
+    handler->pTimx->TIMx_ARR = handler->Timer_Config.AUTO_RELOAD_VALUE;
+
+    //activate the output mode to channel 1
+    handler->pTimx->TIMx_CCMR1 &= ~(0x11 << 0);
+
+    //set output mode on output channel
+    handler->pTimx->TIMx_CCMR1 |= (handler->Timer_OC_Config.OCMode << 4);
+
+    //set preloader register settings
+    handler->pTimx->TIMx_CCMR1 |= (handler->Timer_OC_Config.OCPreloadEnable << 3);
+
+    //UG bit is not required to set as Timer register is reset
+    //set the output polarity
+    handler->pTimx->TIMx_CCER |= (handler->Timer_OC_Config.OCPolarity << 1);
+
+    //put the CCR data in it's register
+    handler->pTimx->TIMx_CCR1 = handler->Timer_OC_Config.OC_Period;
+
+}
+
+void Timer_OC_enable(TIMx_RegDef_t* pTimx)
+{
+    //enable the output compare mode
+    pTimx->TIMx_CCER |= (1 << 0);
+}
+
+void Timer_OC_IT_enable(TIMx_RegDef_t* pTimx)
+{
+    Timer_IC_IT_enable(pTimx);
+}
+
 void Timer_IC_init(Timer_IC_Handler_t* handler)
 {
     //Enable the peripheral clock

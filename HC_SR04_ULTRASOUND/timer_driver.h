@@ -42,9 +42,10 @@ typedef struct{
 }Timer_IC_Handler_t;
 
 typedef struct{
+    uint32_t OC_Period;      //user defined CCR value
     uint8_t OCMode; /*possible values @OCMode*/
     uint8_t OCPreloadEnable; /*possible values @OCPreloadEnable*/
-    uint8_t OCPolarity;  /*possible values @OCPolarity*/
+    uint8_t OCPolarity;  /*possible values @OCPolarity*/   
 }Timer_OC_Config_t;
 
 typedef struct{
@@ -115,6 +116,8 @@ void Timer_IC_enable(TIMx_RegDef_t* pTimx);
 void Timer_IC_IT_enable(TIMx_RegDef_t* pTimx);
 
 //Output Compare Timer Handling Function
-
+void Timer_OC_init(Timer_OC_Handler_t* handler);
+void Timer_OC_enable(TIMx_RegDef_t* pTimx);
+void Timer_OC_IT_enable(TIMx_RegDef_t* pTimx);
 
 #endif
