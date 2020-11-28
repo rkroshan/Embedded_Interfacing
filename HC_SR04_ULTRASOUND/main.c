@@ -47,10 +47,10 @@ int main(void){
 #endif
 
 
-	// void testing_basic_timer();
-	// void testing_basic_timer_with_interrupt(void);
-	// void testing_input_capture_with_interrupt(void);
-	testing_output_capture_with_interrupt();
+	// testing_general_timer();
+	// testing_basic_timer_with_interrupt();
+	// testing_input_capture_with_interrupt();
+	// testing_output_capture_with_interrupt();
 
 	while(1){
 		//just for safety to prevent memory fault
@@ -70,6 +70,7 @@ void gpio_init_test(uint8_t PinNumber){
 	handler.Gpio_PinConfig.PinOspeed = GPIO_OSPEED_HIGH;
 	handler.Gpio_PinConfig.PinPuPdControl = GPIO_PUPD_PUP;
 	
+	Gpio_reset(handler.pGpiox);
 	Gpio_init(&handler);
 }
 
@@ -102,11 +103,11 @@ void testing_output_capture_with_interrupt(void)
 	TOCHandler.Timer_OC_Config.OCPreloadEnable = OCPreloadEnable_DISABLE;
 	TOCHandler.Timer_OC_Config.OC_Period = (TOCHandler.Timer_Config.AUTO_RELOAD_VALUE/2); //50% duty cycle
 
-	Timer_OC_init(&TOCHandler);
-	Timer_OC_enable(TOCHandler.pTimx);
+	Timer_OC_init(&TOCHandler,TIM_CHANNEL_1);
+	Timer_OC_enable(TOCHandler.pTimx,TIM_CHANNEL_1);
 	Timer_priorityConfig(IRQ_NUM_TIM2,15);
 	Timer_interruptConfig(IRQ_NUM_TIM2,TIMER_ENABLE);
-	Timer_OC_IT_enable(TOCHandler.pTimx);
+	Timer_OC_IT_enable(TOCHandler.pTimx,TIM_CHANNEL_1);
 
 	//output pin config for TIM2 channel 1
 	AFhandler.pGpiox = GPIOA;
@@ -130,14 +131,15 @@ void testing_general_timer(void)
 	THandler.pTimx = TIM2;
 	THandler.Timer_Config.PRESCALER = 10;
 	THandler.Timer_Config.AUTO_RELOAD_VALUE = 2000000;
+	Timer_reset(THandler.pTimx,NULL);
 	Timer_init(&THandler,NULL);
 	Timer_enable(THandler.pTimx,NULL);
 
-while(1){
-#ifdef SEMIHOSTING
-	printf("CNT =%ld\n", THandler.pTimx->TIMx_CNT); //test it with arm semihosting "make run_itm"
-#endif
-}
+	while(1){
+		#ifdef SEMIHOSTING
+			printf("CNT =%ld\n", THandler.pTimx->TIMx_CNT); //test it with arm semihosting "make run_itm"
+		#endif
+	}
 }
 
 
@@ -176,12 +178,12 @@ void testing_input_capture_with_interrupt(void)
 	TICHandler.Timer_IC_Config.Capture_Filter = CAPTURE_FILTER_NO_FILTER;
 	TICHandler.Timer_IC_Config.Capture_Prescaler = CAPTURE_PSC_NONE;
 
-	Timer_IC_init(&TICHandler);
-	Timer_IC_enable(TICHandler.pTimx);
+	Timer_IC_init(&TICHandler,TIM_CHANNEL_1);
+	Timer_IC_enable(TICHandler.pTimx,TIM_CHANNEL_1);
 	Timer_priorityConfig(IRQ_NUM_TIM2,15);
 	Timer_interruptConfig(IRQ_NUM_TIM2,TIMER_ENABLE);
 
-	Timer_IC_IT_enable(TICHandler.pTimx);
+	Timer_IC_IT_enable(TICHandler.pTimx,TIM_CHANNEL_1);
 	Timer_enable(TICHandler.pTimx,NULL);
 
 	gpio_init_test(GPIO_PIN_14);

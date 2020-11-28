@@ -54,6 +54,12 @@ typedef struct{
     TIMx_RegDef_t* pTimx;
 }Timer_OC_Handler_t;
 
+/*possible values @CHANNEL NUMBER*/
+#define TIM_CHANNEL_1   1
+#define TIM_CHANNEL_2   2
+#define TIM_CHANNEL_3   3
+#define TIM_CHANNEL_4   4
+
 /*possible values @OCPolarity*/
 #define OCPolarity_HIGH     0
 #define OCPolarity_LOW      1
@@ -110,14 +116,20 @@ void Timer_priorityConfig(uint8_t IRQ_NUMBER, uint8_t priority);
 
 void Timer_interrupt_callback_func(Timer_Handler_t* handler, Timer_s_Handler_t* shandler);
 
+void Timer_clear_UIF_flag(TIMx_RegDef_t* pTimx, TIMsx_RegDef_t* pTimxs);
+
 //Input Capture Timer Handling Function
-void Timer_IC_init(Timer_IC_Handler_t* handler);
-void Timer_IC_enable(TIMx_RegDef_t* pTimx);
-void Timer_IC_IT_enable(TIMx_RegDef_t* pTimx);
+void Timer_IC_init(Timer_IC_Handler_t* handler, uint8_t Channel);
+void Timer_IC_enable(TIMx_RegDef_t* pTimx, uint8_t Channel);
+void Timer_IC_disable(TIMx_RegDef_t* pTimx, uint8_t Channel);
+void Timer_IC_IT_enable(TIMx_RegDef_t* pTimx, uint8_t Channel);
+void Timer_IC_IT_disable(TIMx_RegDef_t* pTimx, uint8_t Channel);
 
 //Output Compare Timer Handling Function
-void Timer_OC_init(Timer_OC_Handler_t* handler);
-void Timer_OC_enable(TIMx_RegDef_t* pTimx);
-void Timer_OC_IT_enable(TIMx_RegDef_t* pTimx);
+void Timer_OC_init(Timer_OC_Handler_t* handler, uint8_t Channel);
+void Timer_OC_enable(TIMx_RegDef_t* pTimx, uint8_t Channel);
+void Timer_OC_disable(TIMx_RegDef_t* pTimx, uint8_t Channel);
+void Timer_OC_IT_enable(TIMx_RegDef_t* pTimx, uint8_t Channel);
+void Timer_OC_IT_disable(TIMx_RegDef_t* pTimx, uint8_t Channel);
 
 #endif
