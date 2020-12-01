@@ -286,6 +286,8 @@ void Timer_reset(TIMx_RegDef_t* pTimx, TIMsx_RegDef_t* pTimsx)
     if(pTimx != NULL){
         if(pTimx == TIM2){
         TIM2_REG_RESET();
+        }else if (pTimx == TIM4){
+            TIM4_REG_RESET();
         }
     }else{
         if(pTimsx == TIM6){
@@ -300,6 +302,8 @@ void Timer_PeriCLK(TIMx_RegDef_t* pTimx, TIMsx_RegDef_t* pTimsx, uint8_t state)
     if(state == TIMER_ENABLE){
         if(pTimx == TIM2){
             TIM2_PCLK_EN();
+        }else if (pTimx == TIM4){
+            TIM4_PCLK_EN();
         }
         else if(pTimsx == TIM6){
             TIM6_PCLK_EN();
@@ -308,6 +312,8 @@ void Timer_PeriCLK(TIMx_RegDef_t* pTimx, TIMsx_RegDef_t* pTimsx, uint8_t state)
     else{
         if(pTimx == TIM2){
             TIM2_PCLK_DI();
+        }else if (pTimx == TIM4){
+            TIM4_PCLK_DI();
         }
         else if(pTimsx == TIM6){
             TIM6_PCLK_DI();

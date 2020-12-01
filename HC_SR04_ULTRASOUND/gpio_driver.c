@@ -20,8 +20,8 @@ void Gpio_init(GPIO_handler_t* handler)
     //enable the gpio peripheral
     GPIO_PeriCLKcontrol(handler->pGpiox,GPIO_ENABLE);
 
-    //reset the gpio port
-    Gpio_reset(handler->pGpiox);
+    // //reset the gpio port
+    // Gpio_reset(handler->pGpiox);
 
     //set pin mode
     handler->pGpiox->MODER |= ((handler->Gpio_PinConfig.PinMode) << 2*(handler->Gpio_PinConfig.PinNumber));
@@ -66,6 +66,8 @@ void Gpio_reset(GPIO_RegDef_t* pGpiox)
         GPIOA_REG_RESET();
     }else if(pGpiox == GPIOD){
         GPIOD_REG_RESET();
+    }else if(pGpiox == GPIOE){
+        GPIOE_REG_RESET();
     }
 }
 
@@ -93,6 +95,8 @@ void GPIO_PeriCLKcontrol(GPIO_RegDef_t* pGpiox, uint8_t state)
         }
         else if(pGpiox == GPIOD){
             GPIOD_PCLK_EN();
+        }else if(pGpiox == GPIOE){
+            GPIOE_PCLK_EN();
         }
     }else{
         if(pGpiox == GPIOA){
@@ -100,6 +104,8 @@ void GPIO_PeriCLKcontrol(GPIO_RegDef_t* pGpiox, uint8_t state)
         }
         else if(pGpiox == GPIOD){
             GPIOD_PCLK_DI();
+        }else if(pGpiox == GPIOE){
+            GPIOE_PCLK_DI();
         }
     }
 }

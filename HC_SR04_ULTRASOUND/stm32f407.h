@@ -18,6 +18,7 @@
 #define AHB1_BASE_ADDRESS		0x40020000U
 #define GPIOA_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x0000)
 #define GPIOD_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x0C00)
+#define GPIOE_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x1000)
 
 #define RCC_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x3800)
 
@@ -137,8 +138,10 @@ typedef struct{
 
 #define GPIOA                   ((GPIO_RegDef_t*)GPIOA_BASE_ADDRESS)
 #define GPIOD                   ((GPIO_RegDef_t*)GPIOD_BASE_ADDRESS)
+#define GPIOE                   ((GPIO_RegDef_t*)GPIOE_BASE_ADDRESS)
 #define RCC                     ((RCC_RegDef_t*)RCC_BASE_ADDRESS)
 #define TIM2                    ((TIMx_RegDef_t*)TIM2_BASE_ADDRESS)
+#define TIM4                    ((TIMx_RegDef_t*)TIM4_BASE_ADDRESS)
 #define TIM6                    ((TIMsx_RegDef_t*)TIM6_BASE_ADDRESS)
 
 
@@ -152,6 +155,10 @@ typedef struct{
 
 #define GPIOD_REG_RESET()       do{ (RCC->RCC_AHB1RSTR |= (1 << 3)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 3)); }while(0)
 
+#define GPIOE_PCLK_EN()         (RCC->RCC_AHB1ENR |= (1 << 4))
+#define GPIOE_PCLK_DI()         (RCC->RCC_AHB1ENR &= ~(1 << 4))
+
+#define GPIOE_REG_RESET()       do{ (RCC->RCC_AHB1RSTR |= (1 << 4)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 4)); }while(0)
 
 #define TIM2_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 0))
 #define TIM2_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 0))
@@ -160,10 +167,15 @@ typedef struct{
 #define TIM6_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 4))
 #define TIM6_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 4))
 #define TIM6_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 4)) ; (RCC->RCC_APB1RSTR &= ~(1 << 4)); }while(0)
-#endif
+
+#define TIM4_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 2))
+#define TIM4_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 2))
+#define TIM4_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 2)) ; (RCC->RCC_APB1RSTR &= ~(1 << 2)); }while(0)
 
 
 
 /*Define IRQ NUMBERS*/
 #define IRQ_NUM_TIM6_DAC    54
 #define IRQ_NUM_TIM2        28
+
+#endif
