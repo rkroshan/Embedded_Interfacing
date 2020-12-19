@@ -3,13 +3,13 @@ MARCH= cortex-m4
 
 SPECS= nano.specs
 LFILE= stm32f4_ls.ld
-CFLAGS= -c -mcpu=$(MARCH) -mthumb -mfloat-abi=soft -std=gnu11 -O0 -Wall -Werror 
+CFLAGS= -c -mcpu=$(MARCH) -mthumb -mfloat-abi=soft -std=gnu11 -O0 -Wall #-Werror 
 LDFLAGS= -mcpu=$(MARCH) -mthumb -mfloat-abi=soft --specs=$(SPECS) -T $(LFILE) -Wl,-Map=final.map
 OUTPUT= final.elf
 
 SPECS_ITM= rdimon.specs
-CFLAGS_ITM= -c -mcpu=$(MARCH) -mthumb -mfloat-abi=soft -std=gnu11 -O0 -Wall -Werror -DSEMIHOSTING=1
-LDFLAGS_ITM= -mcpu=$(MARCH) -mthumb -mfloat-abi=soft --specs=$(SPECS_ITM) -T $(LFILE) -Wl,-Map=final.map
+CFLAGS_ITM= -c -mcpu=$(MARCH) -mthumb -mfloat-abi=soft -std=gnu11 -O0 -Wall -DSEMIHOSTING=1 #-Werror 
+LDFLAGS_ITM= -mcpu=$(MARCH) -mthumb -mfloat-abi=soft --specs=$(SPECS_ITM) -T $(LFILE) -Wl,-Map=final_itm.map
 OUTPUT_ITM= final_itm.elf
 
 $(OUTPUT): *.o

@@ -1,5 +1,5 @@
 #include "gpio_driver.h"
-
+#include <stdio.h>
 /*
  * GPIO init function
  */
@@ -176,6 +176,8 @@ void GPIO_writeOutputInPin(GPIO_RegDef_t* pGpiox, uint8_t PinNumber, uint8_t Val
     }else{
         pGpiox->BSRR |= (1 << (PinNumber + 16));
     }
+
+    
 }
 
 /*

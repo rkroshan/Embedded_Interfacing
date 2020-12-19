@@ -353,10 +353,10 @@ void Timer_interruptConfig(uint8_t IRQ_NUMBER, uint8_t State)
             *NVIC_ICER0 &= ~(1 << IRQ_NUMBER);
         }
         else if(IRQ_NUMBER < 64){
-            *NVIC_ICER1 &= ~(1 << (IRQ_NUMBER % 32));
+            *NVIC_ICER1 &= ~(1 << (IRQ_NUMBER - 32));
         }
         else if(IRQ_NUMBER < 96){
-            *NVIC_ICER2 &= ~(1 << (IRQ_NUMBER % 64));
+            *NVIC_ICER2 &= ~(1 << (IRQ_NUMBER - 64));
         }
     }
 }

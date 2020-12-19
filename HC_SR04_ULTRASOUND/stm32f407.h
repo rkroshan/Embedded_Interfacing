@@ -7,6 +7,8 @@
 #include <stddef.h>
 
 #define _vo                     volatile
+#define __weak                  __attribute__((weak))
+
 
 /*Memory Addresses*/
 #define FLASH_BASE_ADDR			0x08000000U
@@ -30,6 +32,13 @@
 #define TIM5_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x0C00)
 #define TIM6_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x1000)
 #define TIM7_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x1400)
+
+/*USART BASE ADDRESS*/
+#define USART2_BASE_ADDRESS     (APB1_BASE_ADDRESS + 0x47FF)
+#define USART3_BASE_ADDRESS     (APB1_BASE_ADDRESS + 0x4BFF)
+#define UART4_BASE_ADDRESS      (APB1_BASE_ADDRESS + 0x4FFF)
+#define UART5_BASE_ADDRESS      (APB1_BASE_ADDRESS + 0x53FF)
+
 
 
 /*
@@ -136,6 +145,19 @@ typedef struct{
     _vo uint32_t TIMx_ARR;
 }TIMsx_RegDef_t;
 
+
+typedef struct{
+
+	uint32_t SR;
+	uint32_t DR;
+	uint32_t BRR;
+	uint32_t CR1;
+	uint32_t CR2;
+	uint32_t CR3;
+	uint32_t GTPR;
+
+}USARTx_RegDef_t;
+
 #define GPIOA                   ((GPIO_RegDef_t*)GPIOA_BASE_ADDRESS)
 #define GPIOD                   ((GPIO_RegDef_t*)GPIOD_BASE_ADDRESS)
 #define GPIOE                   ((GPIO_RegDef_t*)GPIOE_BASE_ADDRESS)
@@ -143,6 +165,7 @@ typedef struct{
 #define TIM2                    ((TIMx_RegDef_t*)TIM2_BASE_ADDRESS)
 #define TIM4                    ((TIMx_RegDef_t*)TIM4_BASE_ADDRESS)
 #define TIM6                    ((TIMsx_RegDef_t*)TIM6_BASE_ADDRESS)
+#define UART4                   ((USARTx_RegDef_t*)UART4_BASE_ADDRESS)
 
 
 #define GPIOA_PCLK_EN()         (RCC->RCC_AHB1ENR |= (1 << 0))
@@ -172,10 +195,23 @@ typedef struct{
 #define TIM4_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 2))
 #define TIM4_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 2)) ; (RCC->RCC_APB1RSTR &= ~(1 << 2)); }while(0)
 
+#define UART4_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 19))
+#define UART4_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 19))
+#define UART4_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 19)) ; (RCC->RCC_APB1RSTR &= ~(1 << 19)); }while(0)
 
 
 /*Define IRQ NUMBERS*/
 #define IRQ_NUM_TIM6_DAC    54
 #define IRQ_NUM_TIM2        28
+#define IRQ_NUM_UART4       52
+#define IRQ_NUM_UART5       53
 
+
+
+/*macros*/
+#define ENABLE      1
+#define DISABLE     0
+#define SET         ENABLE
+#define UNSET       DISABLE
+#define RESET       DISABLE
 #endif
