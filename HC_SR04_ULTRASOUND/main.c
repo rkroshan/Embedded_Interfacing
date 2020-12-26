@@ -20,6 +20,7 @@ extern void initialise_monitor_handles(void);
 void enable_processor_faults(void);
 
 #define GPIO_DELAY 500000
+#define OBSTACLE_DISTANCE	10 
 GPIO_handler_t handler, AFhandler;
 void gpio_init_test(uint8_t PinNumber);
 void gpio_delay(uint32_t time);
@@ -219,6 +220,9 @@ void testing_hcsr04_it(void){
 	Timer_enable(ICHandle.pTimx,NULL);
 	
 
+	//gpio 14 on obstacle detection GPIOD
+	gpio_init_test(GPIO_PIN_14);
+	
 	//init gpio for alt func mode
 	GPIO_handler_t ghandle;
 	ghandle.pGpiox = GPIOA;
@@ -272,6 +276,12 @@ void testing_hcsr04_it(void){
 	  		}else{
 				  distance = 0.0f;
 			  }
+
+			if((distance !=0) && distance <= OBSTACLE_DISTANCE){
+				GPIO_writeOutputInPin(GPIOD,GPIO_PIN_14,ENABLE);
+			}else{
+				GPIO_writeOutputInPin(GPIOD,GPIO_PIN_14,DISABLE);
+			}
 
 			#ifdef SEMIHOSTING
 	  			printf("D = %f\n",distance);
