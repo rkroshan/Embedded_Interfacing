@@ -6,7 +6,6 @@
 // #include "HC_SR04.h"
 #include "gpio_driver.h"
 #include "timer_driver.h"
-#include "usart_driver.h"
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
@@ -34,7 +33,6 @@ void testing_input_capture_with_interrupt(void);
 void testing_output_capture_with_interrupt(void); //it will generate pwm square wave which will toggle led
 void testing_hcsr04(void);
 void testing_hcsr04_it(void);
-void testing_uart(void);
 bool basic_timer_interrupt = false;
 bool input_capture_with_interrupt = false;
 bool output_capture_with_interrupt = false;
@@ -75,7 +73,6 @@ int main(void){
 	// testing_output_capture_with_interrupt();
 	// testing_hcsr04();
 	testing_hcsr04_it();
-	// testing_uart();
 	while(1){
 		//just for safety to prevent memory fault
 	}	
@@ -122,70 +119,6 @@ void tim_delay(TIMx_RegDef_t* pTimx, uint32_t delay){
 	pTimx->TIMx_CR1 |= (1 << 0);
 	while(!(pTimx->TIMx_SR & 0x0001));
 	pTimx->TIMx_SR &= ~(1 << 0);
-}
-
-void testing_uart(void)
-{
-	char msg[1024] = "UART Tx testing...\n\r";
-
-	GPIO_handler_t usart_gpios;
-
-	usart_gpios.pGpiox = GPIOA;
-	usart_gpios.Gpio_PinConfig.PinMode = GPIO_MODE_ALTFUNC;
-	usart_gpios.Gpio_PinConfig.PinOtype = GPIO_OTYPE_PUSHPULL;
-	usart_gpios.Gpio_PinConfig.PinPuPdControl = GPIO_PUPD_PUP;
-	usart_gpios.Gpio_PinConfig.PinOspeed = GPIO_OSPEED_HIGH;
-	usart_gpios.Gpio_PinConfig.PinAltFuncMode = GPIO_AF8;
-
-	//USART4 TX PA0
-	usart_gpios.Gpio_PinConfig.PinNumber = GPIO_PIN_0;
-	Gpio_reset(usart_gpios.pGpiox);
-	Gpio_init(&usart_gpios);
-
-	//USART4 RX PA1
-	usart_gpios.Gpio_PinConfig.PinNumber = GPIO_PIN_1;
-	Gpio_init(&usart_gpios);
-
-	GPIO_handler_t GpioBtn;
-
-	GpioBtn.pGpiox = GPIOA;
-	GpioBtn.Gpio_PinConfig.PinNumber = GPIO_PIN_0;
-	GpioBtn.Gpio_PinConfig.PinMode = GPIO_MODE_INPUT;
-	GpioBtn.Gpio_PinConfig.PinPuPdControl = GPIO_PUPD_NOPP;
-	GpioBtn.Gpio_PinConfig.PinOspeed = GPIO_OSPEED_HIGH;
-
-	Gpio_init(&GpioBtn);
-
-	USART_Handler_t usart4_handle;
-	usart4_handle.pUSARTx = UART4;
-	usart4_handle.Pin_Config.USART_Baud = USART_STD_BAUD_115200;
-	usart4_handle.Pin_Config.USART_HXFlowControl = USART_HW_FLOW_CTRL_NONE;
-	usart4_handle.Pin_Config.USART_MODE = USART_MODE_TX_ONLY;
-	usart4_handle.Pin_Config.USART_NoOfStopBits = USART_STOPBITS_1;
-	usart4_handle.Pin_Config.USART_WordLength = USART_WORDLEN_8BITS;
-	usart4_handle.Pin_Config.USART_ParityControl = USART_PARITY_DISABLE;
-	USART_reset(usart4_handle.pUSARTx);
-	USART_Init(&usart4_handle);
-
-
-
-
-	USART_PeripheralControl(UART4, ENABLE);
-
-	while (1) {
-		//wait till button is pressed
-		while (!GPIO_readInputFromPin(GPIOA, GPIO_PIN_0));
-
-		//to avoid button de-bouncing related issues 200ms of delay
-		gpio_delay(GPIO_DELAY/2);
-		#ifdef SEMIHOSTING
-		printf("Sent Data\n");
-		#endif
-
-		USART_SendData(&usart4_handle, (uint8_t*) msg, strlen(msg));
-
-	}
-
 }
 
 void testing_hcsr04_it(void){
@@ -529,31 +462,6 @@ void TIM2_Handler(void)
 	}	
 
 }
-
-void USART_ApplicationCallBack(USART_Handler_t *pUSART_Handler, uint8_t EVENT)
-{
-   if(EVENT == USART_EVENT_RX_CMPLT)
-   {
-			rxCmplt = SET;
-			#ifdef SEMIHOSTING
-				printf("USART_EVENT_RX_CMPLT");
-			#endif
-
-   }else if (EVENT == USART_EVENT_TX_CMPLT)
-   {
-	   #ifdef SEMIHOSTING
-			printf("USART_EVENT_TX_CMPLT");
-	   #endif
-   }
-}
-
-
-
-
-
-
-
-
 
 
 void enable_processor_faults(void)
