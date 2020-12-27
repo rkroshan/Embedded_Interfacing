@@ -7,6 +7,8 @@
 #include <stddef.h>
 
 #define _vo                     volatile
+#define __weak                  __attribute__((weak))
+
 
 /*Memory Addresses*/
 #define FLASH_BASE_ADDR			0x08000000U
@@ -18,13 +20,42 @@
 #define AHB1_BASE_ADDRESS		0x40020000U
 #define GPIOA_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x0000)
 #define GPIOD_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x0C00)
+#define GPIOE_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x1000)
 
 #define RCC_BASE_ADDRESS		(AHB1_BASE_ADDRESS + 0x3800)
 
 /*TIMER BASE ADDRESS*/
-#define TIM2_BASE_ADDRESS       0x40000000U
+#define APB1_BASE_ADDRESS       0x40000000U
+#define TIM2_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x0000)
+#define TIM3_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x0400)
+#define TIM4_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x0800)
+#define TIM5_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x0C00)
+#define TIM6_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x1000)
+#define TIM7_BASE_ADDRESS       (APB1_BASE_ADDRESS + 0x1400)
+
+/*USART BASE ADDRESS*/
+#define USART2_BASE_ADDRESS     (APB1_BASE_ADDRESS + 0x47FF)
+#define USART3_BASE_ADDRESS     (APB1_BASE_ADDRESS + 0x4BFF)
+#define UART4_BASE_ADDRESS      (APB1_BASE_ADDRESS + 0x4FFF)
+#define UART5_BASE_ADDRESS      (APB1_BASE_ADDRESS + 0x53FF)
 
 
+
+/*
+ * CORTEX M4 Processor Interrupt Specific Register
+ */
+#define NVIC_ISER0			( (_vo uint32_t*)0xE000E100 )
+#define NVIC_ISER1			( (_vo uint32_t*)0xE000E104 )
+#define NVIC_ISER2			( (_vo uint32_t*)0xE000E108 )
+#define NVIC_ISER3			( (_vo uint32_t*)0xE000E10C )
+
+
+#define NVIC_ICER0			( (_vo uint32_t*)0xE000E180 )
+#define NVIC_ICER1			( (_vo uint32_t*)0xE000E184 )
+#define NVIC_ICER2			( (_vo uint32_t*)0xE000E188 )
+#define NVIC_ICER3			( (_vo uint32_t*)0xE000E18C )
+
+#define NVIC_IPR_BASE_ADDR 	( (_vo uint32_t*)0xE000E400 )
 
 /*
 GPIO Peripheral Register Definition structure
@@ -99,10 +130,43 @@ typedef struct{
     _vo uint32_t TIM2_OR;
 }TIMx_RegDef_t;
 
+typedef struct{
+    _vo uint32_t TIMx_CR1;
+    _vo uint32_t TIMx_CR2;
+        uint32_t RESERVED_D0;
+    _vo uint32_t TIMx_DIER;
+    _vo uint32_t TIMx_SR;
+    _vo uint32_t TIMx_EGR;
+        uint32_t RESERVED_D1;
+        uint32_t RESERVED_D2;
+        uint32_t RESERVED_D3;
+    _vo uint32_t TIMx_CNT;
+    _vo uint32_t TIMx_PSC;
+    _vo uint32_t TIMx_ARR;
+}TIMsx_RegDef_t;
+
+
+typedef struct{
+
+	uint32_t SR;
+	uint32_t DR;
+	uint32_t BRR;
+	uint32_t CR1;
+	uint32_t CR2;
+	uint32_t CR3;
+	uint32_t GTPR;
+
+}USARTx_RegDef_t;
+
 #define GPIOA                   ((GPIO_RegDef_t*)GPIOA_BASE_ADDRESS)
 #define GPIOD                   ((GPIO_RegDef_t*)GPIOD_BASE_ADDRESS)
+#define GPIOE                   ((GPIO_RegDef_t*)GPIOE_BASE_ADDRESS)
 #define RCC                     ((RCC_RegDef_t*)RCC_BASE_ADDRESS)
 #define TIM2                    ((TIMx_RegDef_t*)TIM2_BASE_ADDRESS)
+#define TIM4                    ((TIMx_RegDef_t*)TIM4_BASE_ADDRESS)
+#define TIM6                    ((TIMsx_RegDef_t*)TIM6_BASE_ADDRESS)
+#define UART4                   ((USARTx_RegDef_t*)UART4_BASE_ADDRESS)
+
 
 #define GPIOA_PCLK_EN()         (RCC->RCC_AHB1ENR |= (1 << 0))
 #define GPIOA_PCLK_DI()         (RCC->RCC_AHB1ENR &= ~(1 << 0))
@@ -114,9 +178,40 @@ typedef struct{
 
 #define GPIOD_REG_RESET()       do{ (RCC->RCC_AHB1RSTR |= (1 << 3)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 3)); }while(0)
 
+#define GPIOE_PCLK_EN()         (RCC->RCC_AHB1ENR |= (1 << 4))
+#define GPIOE_PCLK_DI()         (RCC->RCC_AHB1ENR &= ~(1 << 4))
+
+#define GPIOE_REG_RESET()       do{ (RCC->RCC_AHB1RSTR |= (1 << 4)) ; (RCC->RCC_AHB1RSTR &= ~(1 << 4)); }while(0)
 
 #define TIM2_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 0))
 #define TIM2_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 0))
 #define TIM2_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 0)) ; (RCC->RCC_APB1RSTR &= ~(1 << 0)); }while(0)
 
+#define TIM6_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 4))
+#define TIM6_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 4))
+#define TIM6_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 4)) ; (RCC->RCC_APB1RSTR &= ~(1 << 4)); }while(0)
+
+#define TIM4_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 2))
+#define TIM4_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 2))
+#define TIM4_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 2)) ; (RCC->RCC_APB1RSTR &= ~(1 << 2)); }while(0)
+
+#define UART4_PCLK_EN()          (RCC->RCC_APB1ENR |= (1 << 19))
+#define UART4_PCLK_DI()          (RCC->RCC_APB1ENR &= ~(1 << 19))
+#define UART4_REG_RESET()        do{ (RCC->RCC_APB1RSTR |= (1 << 19)) ; (RCC->RCC_APB1RSTR &= ~(1 << 19)); }while(0)
+
+
+/*Define IRQ NUMBERS*/
+#define IRQ_NUM_TIM6_DAC    54
+#define IRQ_NUM_TIM2        28
+#define IRQ_NUM_UART4       52
+#define IRQ_NUM_UART5       53
+
+
+
+/*macros*/
+#define ENABLE      1
+#define DISABLE     0
+#define SET         ENABLE
+#define UNSET       DISABLE
+#define RESET       DISABLE
 #endif

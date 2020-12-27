@@ -1,5 +1,17 @@
 Archive member included to satisfy reference by file (symbol)
 
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
+                              main.o (__aeabi_dmul)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
+                              main.o (__aeabi_fmul)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+                              main.o (__aeabi_f2d)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+                              main.o (__aeabi_d2f)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                              main.o (__aeabi_fadd)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                              main.o (__aeabi_fcmpeq)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
                               syscalls.o (__errno)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
@@ -14,7 +26,13 @@ Archive member included to satisfy reference by file (symbol)
 Allocating common symbols
 Common symbol       size              file
 
+TOCHandler          0x14              main.o
+distance            0x4               main.o
+TSHandler           0xc               main.o
 handler             0xc               main.o
+TICHandler          0x10              main.o
+capture             0x8               main.o
+AFhandler           0xc               main.o
 
 Memory Configuration
 
@@ -32,7 +50,6 @@ LOAD syscalls.o
 LOAD gpio_driver.o
 LOAD stm32f4_startup.o
 LOAD main.o
-LOAD HC_SR04.o
 LOAD timer_driver.o
 START GROUP
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a
@@ -45,7 +62,7 @@ END GROUP
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
 LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
 
-.text           0x0000000008000000      0xb04
+.text           0x0000000008000000     0x2644
  *(.isr_vector)
  .isr_vector    0x0000000008000000      0x188 stm32f4_startup.o
                 0x0000000008000000                vectors
@@ -76,190 +93,265 @@ LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/
                 0x000000000800040e                _fork
                 0x0000000008000424                _execve
                 0x0000000008000446                _sbrk
- .text          0x00000000080004a0      0x27c gpio_driver.o
+ .text          0x00000000080004a0      0x2c8 gpio_driver.o
                 0x00000000080004a0                Gpio_init
-                0x0000000008000592                Gpio_reset
-                0x00000000080005f4                GPIO_PeriCLKcontrol
-                0x0000000008000674                GPIO_readInputFromPin
-                0x000000000800069e                GPIO_readInputFromPort
-                0x00000000080006b6                GPIO_writeOutputInPin
-                0x00000000080006fe                GPIO_writeOutputInPort
- .text          0x000000000800071c       0x90 stm32f4_startup.o
-                0x000000000800071c                RTC_WKUP_Handler
-                0x000000000800071c                FLASH_Handler
-                0x000000000800071c                SVCall_Handler
-                0x000000000800071c                DMA2_Stream7_Handler
-                0x000000000800071c                OTG_HS_Handler
-                0x000000000800071c                DMA2_Stream3_Handler
-                0x000000000800071c                SysTick_Handler
-                0x000000000800071c                USART3_Handler
-                0x000000000800071c                PendSV_Handler
-                0x000000000800071c                NMI_Handler
-                0x000000000800071c                TIM6_DAC_Handler
-                0x000000000800071c                CAN1_RX1_Handler
-                0x000000000800071c                EXTI15_10_Handler
-                0x000000000800071c                ADC_Handler
-                0x000000000800071c                HASH_RNG_Handler
-                0x000000000800071c                I2C1_EV_Handler
-                0x000000000800071c                TAMP_STAMP_Handler
-                0x000000000800071c                I2C3_ER_Handler
-                0x000000000800071c                WWDG_Handler
-                0x000000000800071c                EXTI4_Handler
-                0x000000000800071c                I2C3_EV_Handler
-                0x000000000800071c                DMA1_Stream1_Handler
-                0x000000000800071c                DMA2_Stream4_Handler
-                0x000000000800071c                DMA1_Stream7_Handler
-                0x000000000800071c                OTG_FS_Handler
-                0x000000000800071c                ETH_WKUP_Handler
-                0x000000000800071c                TIM1_BRK_TIM9_Handler
-                0x000000000800071c                I2C1_ER_Handler
-                0x000000000800071c                DMA1_Stream3_Handler
-                0x000000000800071c                UsageFault_Handler
-                0x000000000800071c                TIM1_UP_TIM10_Handler
-                0x000000000800071c                CAN1_RX0_Handler
-                0x000000000800071c                TIM1_CC_Handler
-                0x000000000800071c                I2C2_ER_Handler
-                0x000000000800071c                USART6_Handler
-                0x000000000800071c                TIM8_CC_Handler
-                0x000000000800071c                CAN1_SCE_Handler
-                0x000000000800071c                DMA1_Stream0_Handler
-                0x000000000800071c                OTG_HS_EP1_OUT_Handler
-                0x000000000800071c                FSMC_Handler
-                0x000000000800071c                EXTI1_Handler
-                0x000000000800071c                EXTI3_Handler
-                0x000000000800071c                CRYP_Handler
-                0x000000000800071c                EXTI2_Handler
-                0x000000000800071c                UART4_Handler
-                0x000000000800071c                CAN2_RX1_Handler
-                0x000000000800071c                EXTI9_5_Handler
-                0x000000000800071c                TIM2_Handler
-                0x000000000800071c                USART1_Handler
-                0x000000000800071c                CAN2_SCE_Handler
-                0x000000000800071c                TIM3_Handler
-                0x000000000800071c                DMA2_Stream6_Handler
-                0x000000000800071c                Default_Handler
-                0x000000000800071c                DCMI_Handler
-                0x000000000800071c                TIM1_TRG_COM_TIM11_Handler
-                0x000000000800071c                RTC_Alarm_Handler
-                0x000000000800071c                TIM4_Handler
-                0x000000000800071c                TIM8_UP_TIM13_Handler
-                0x000000000800071c                CAN2_TX_Handler
-                0x000000000800071c                SPI2_Handler
-                0x000000000800071c                DMA2_Stream1_Handler
-                0x000000000800071c                DMA1_Stream2_Handler
-                0x000000000800071c                EXTI0_Handler
-                0x000000000800071c                TIM8_BRK_TIM12_Handler
-                0x000000000800071c                CAN2_RX0_Handler
-                0x000000000800071c                DMA2_Stream5_Handler
-                0x000000000800071c                DMA1_Stream6_Handler
-                0x000000000800071c                SDIO_Handler
-                0x000000000800071c                USART2_Handler
-                0x000000000800071c                ETH_Handler
-                0x000000000800071c                SPI1_Handler
-                0x000000000800071c                I2C2_EV_Handler
-                0x000000000800071c                DMA2_Stream2_Handler
-                0x000000000800071c                Debug_Monitor_Handler
-                0x000000000800071c                SPI3_Handler
-                0x000000000800071c                DMA2_Stream0_Handler
-                0x000000000800071c                RCC_Handler
-                0x000000000800071c                PVD_Handler
-                0x000000000800071c                UART5_Handler
-                0x000000000800071c                DMA1_Stream5_Handler
-                0x000000000800071c                TIM5_Handler
-                0x000000000800071c                TIM7_Handler
-                0x000000000800071c                TIM8_TRG_COM_TIM14_Handler
-                0x000000000800071c                CAN1_TX_Handler
-                0x000000000800071c                FPU_Handler
-                0x000000000800071c                DMA1_Stream4_Handler
-                0x000000000800071c                OTG_HS_WKUP_Handler
-                0x000000000800071c                OTG_FS_WKUP_Handler
-                0x000000000800071c                OTG_HS_EP1_IN_Handler
-                0x0000000008000722                Reset_Handler
- .text          0x00000000080007ac      0x148 main.o
-                0x00000000080007ac                main
-                0x00000000080007fc                gpio_testing
-                0x0000000008000840                gpio_pin_toggle
-                0x000000000800087c                gpio_delay
-                0x00000000080008a4                enable_processor_faults
-                0x00000000080008e0                HardFault_Handler
-                0x00000000080008e6                MemManage_Handler
-                0x00000000080008ec                BusFault_Handler
- .text          0x00000000080008f4       0x40 HC_SR04.o
-                0x00000000080008f4                hc_sr04_send_echo
-                0x0000000008000906                hc_sr04_get_time_lapse
-                0x0000000008000914                hc_sr04_get_distance_in_cm
-                0x0000000008000924                hc_sr04_get_distance_in_inch
- .text          0x0000000008000934      0x128 timer_driver.o
-                0x0000000008000934                Timer_init
-                0x000000000800098e                Timer_enable
-                0x00000000080009ac                Timer_disable
-                0x00000000080009ca                wait_till_Timer_event
-                0x00000000080009da                Timer_reset
-                0x0000000008000a10                Timer_PeriCLK
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
- .text          0x0000000008000a5c        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0000000008000588                Gpio_reset
+                0x0000000008000610                GPIO_PeriCLKcontrol
+                0x00000000080006c0                GPIO_readInputFromPin
+                0x00000000080006ea                GPIO_readInputFromPort
+                0x0000000008000702                GPIO_writeOutputInPin
+                0x000000000800074a                GPIO_writeOutputInPort
+ .text          0x0000000008000768       0x90 stm32f4_startup.o
+                0x0000000008000768                RTC_WKUP_Handler
+                0x0000000008000768                FLASH_Handler
+                0x0000000008000768                SVCall_Handler
+                0x0000000008000768                DMA2_Stream7_Handler
+                0x0000000008000768                OTG_HS_Handler
+                0x0000000008000768                DMA2_Stream3_Handler
+                0x0000000008000768                SysTick_Handler
+                0x0000000008000768                USART3_Handler
+                0x0000000008000768                PendSV_Handler
+                0x0000000008000768                NMI_Handler
+                0x0000000008000768                CAN1_RX1_Handler
+                0x0000000008000768                EXTI15_10_Handler
+                0x0000000008000768                ADC_Handler
+                0x0000000008000768                HASH_RNG_Handler
+                0x0000000008000768                I2C1_EV_Handler
+                0x0000000008000768                TAMP_STAMP_Handler
+                0x0000000008000768                I2C3_ER_Handler
+                0x0000000008000768                WWDG_Handler
+                0x0000000008000768                EXTI4_Handler
+                0x0000000008000768                I2C3_EV_Handler
+                0x0000000008000768                DMA1_Stream1_Handler
+                0x0000000008000768                DMA2_Stream4_Handler
+                0x0000000008000768                DMA1_Stream7_Handler
+                0x0000000008000768                OTG_FS_Handler
+                0x0000000008000768                ETH_WKUP_Handler
+                0x0000000008000768                TIM1_BRK_TIM9_Handler
+                0x0000000008000768                I2C1_ER_Handler
+                0x0000000008000768                DMA1_Stream3_Handler
+                0x0000000008000768                UsageFault_Handler
+                0x0000000008000768                TIM1_UP_TIM10_Handler
+                0x0000000008000768                CAN1_RX0_Handler
+                0x0000000008000768                TIM1_CC_Handler
+                0x0000000008000768                I2C2_ER_Handler
+                0x0000000008000768                USART6_Handler
+                0x0000000008000768                TIM8_CC_Handler
+                0x0000000008000768                CAN1_SCE_Handler
+                0x0000000008000768                DMA1_Stream0_Handler
+                0x0000000008000768                OTG_HS_EP1_OUT_Handler
+                0x0000000008000768                FSMC_Handler
+                0x0000000008000768                EXTI1_Handler
+                0x0000000008000768                EXTI3_Handler
+                0x0000000008000768                CRYP_Handler
+                0x0000000008000768                EXTI2_Handler
+                0x0000000008000768                UART4_Handler
+                0x0000000008000768                CAN2_RX1_Handler
+                0x0000000008000768                EXTI9_5_Handler
+                0x0000000008000768                USART1_Handler
+                0x0000000008000768                CAN2_SCE_Handler
+                0x0000000008000768                TIM3_Handler
+                0x0000000008000768                DMA2_Stream6_Handler
+                0x0000000008000768                Default_Handler
+                0x0000000008000768                DCMI_Handler
+                0x0000000008000768                TIM1_TRG_COM_TIM11_Handler
+                0x0000000008000768                RTC_Alarm_Handler
+                0x0000000008000768                TIM4_Handler
+                0x0000000008000768                TIM8_UP_TIM13_Handler
+                0x0000000008000768                CAN2_TX_Handler
+                0x0000000008000768                SPI2_Handler
+                0x0000000008000768                DMA2_Stream1_Handler
+                0x0000000008000768                DMA1_Stream2_Handler
+                0x0000000008000768                EXTI0_Handler
+                0x0000000008000768                TIM8_BRK_TIM12_Handler
+                0x0000000008000768                CAN2_RX0_Handler
+                0x0000000008000768                DMA2_Stream5_Handler
+                0x0000000008000768                DMA1_Stream6_Handler
+                0x0000000008000768                SDIO_Handler
+                0x0000000008000768                USART2_Handler
+                0x0000000008000768                ETH_Handler
+                0x0000000008000768                SPI1_Handler
+                0x0000000008000768                I2C2_EV_Handler
+                0x0000000008000768                DMA2_Stream2_Handler
+                0x0000000008000768                Debug_Monitor_Handler
+                0x0000000008000768                SPI3_Handler
+                0x0000000008000768                DMA2_Stream0_Handler
+                0x0000000008000768                RCC_Handler
+                0x0000000008000768                PVD_Handler
+                0x0000000008000768                UART5_Handler
+                0x0000000008000768                DMA1_Stream5_Handler
+                0x0000000008000768                TIM5_Handler
+                0x0000000008000768                TIM7_Handler
+                0x0000000008000768                TIM8_TRG_COM_TIM14_Handler
+                0x0000000008000768                CAN1_TX_Handler
+                0x0000000008000768                FPU_Handler
+                0x0000000008000768                DMA1_Stream4_Handler
+                0x0000000008000768                OTG_HS_WKUP_Handler
+                0x0000000008000768                OTG_FS_WKUP_Handler
+                0x0000000008000768                OTG_HS_EP1_IN_Handler
+                0x000000000800076e                Reset_Handler
+ .text          0x00000000080007f8      0x840 main.o
+                0x00000000080007f8                main
+                0x0000000008000806                gpio_toggle
+                0x000000000800082e                gpio_init_test
+                0x000000000800087c                gpio_pin_toggle
+                0x00000000080008b8                gpio_delay
+                0x00000000080008e0                tim_delay
+                0x000000000800093a                testing_hcsr04_it
+                0x0000000008000b84                testing_hcsr04
+                0x0000000008000cb4                testing_output_capture_with_interrupt
+                0x0000000008000d60                testing_general_timer
+                0x0000000008000d98                testing_basic_timer_with_interrupt
+                0x0000000008000dfc                testing_input_capture_with_interrupt
+                0x0000000008000ec0                TIM6_DAC_Handler
+                0x0000000008000ef4                TIM2_Handler
+                0x0000000008000fe8                enable_processor_faults
+                0x0000000008001024                HardFault_Handler
+                0x000000000800102a                MemManage_Handler
+                0x0000000008001030                BusFault_Handler
+ .text          0x0000000008001038      0xa84 timer_driver.o
+                0x0000000008001038                Timer_init
+                0x00000000080010f8                Timer_OC_init
+                0x00000000080012b4                Timer_OC_enable
+                0x00000000080012d2                Timer_OC_disable
+                0x00000000080012f0                Timer_OC_IT_enable
+                0x000000000800130e                Timer_OC_IT_disable
+                0x000000000800132c                Timer_IC_init
+                0x00000000080015c6                Timer_IC_IT_enable
+                0x00000000080015ee                Timer_IC_IT_disable
+                0x0000000008001618                Timer_IC_enable
+                0x0000000008001686                Timer_IC_disable
+                0x00000000080016f2                Timer_enable
+                0x0000000008001726                Timer_disable
+                0x000000000800175a                wait_till_Timer_event
+                0x00000000080017aa                Timer_clear_UIF_flag
+                0x00000000080017de                Timer_reset
+                0x0000000008001868                Timer_PeriCLK
+                0x0000000008001914                Timer_IT_state
+                0x0000000008001964                Timer_interruptConfig
+                0x0000000008001a54                Timer_priorityConfig
+                0x0000000008001aa8                Timer_interrupt_callback_func
+ .text          0x0000000008001abc      0x254 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
+                0x0000000008001abc                __aeabi_dmul
+                0x0000000008001abc                __muldf3
+ .text          0x0000000008001d10      0x168 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
+                0x0000000008001d10                __mulsf3
+                0x0000000008001d10                __aeabi_fmul
+ .text          0x0000000008001e78      0x378 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008001e78                __aeabi_drsub
+                0x0000000008001e80                __aeabi_dsub
+                0x0000000008001e80                __subdf3
+                0x0000000008001e84                __adddf3
+                0x0000000008001e84                __aeabi_dadd
+                0x00000000080020fc                __aeabi_ui2d
+                0x00000000080020fc                __floatunsidf
+                0x000000000800211c                __floatsidf
+                0x000000000800211c                __aeabi_i2d
+                0x0000000008002140                __extendsfdf2
+                0x0000000008002140                __aeabi_f2d
+                0x0000000008002184                __aeabi_ul2d
+                0x0000000008002184                __floatundidf
+                0x0000000008002194                __floatdidf
+                0x0000000008002194                __aeabi_l2d
+ .text          0x00000000080021f0       0xa0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000080021f0                __aeabi_d2f
+                0x00000000080021f0                __truncdfsf2
+ .text          0x0000000008002290      0x21c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008002290                __aeabi_frsub
+                0x0000000008002298                __subsf3
+                0x0000000008002298                __aeabi_fsub
+                0x000000000800229c                __aeabi_fadd
+                0x000000000800229c                __addsf3
+                0x00000000080023fc                __aeabi_ui2f
+                0x00000000080023fc                __floatunsisf
+                0x0000000008002404                __aeabi_i2f
+                0x0000000008002404                __floatsisf
+                0x0000000008002420                __floatundisf
+                0x0000000008002420                __aeabi_ul2f
+                0x0000000008002430                __floatdisf
+                0x0000000008002430                __aeabi_l2f
+ .text          0x00000000080024ac       0xec /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                0x00000000080024ac                __gtsf2
+                0x00000000080024ac                __gesf2
+                0x00000000080024b4                __lesf2
+                0x00000000080024b4                __ltsf2
+                0x00000000080024bc                __nesf2
+                0x00000000080024bc                __eqsf2
+                0x00000000080024bc                __cmpsf2
+                0x000000000800251c                __aeabi_cfrcmple
+                0x0000000008002524                __aeabi_cfcmple
+                0x0000000008002524                __aeabi_cfcmpeq
+                0x0000000008002534                __aeabi_fcmpeq
+                0x0000000008002548                __aeabi_fcmplt
+                0x000000000800255c                __aeabi_fcmple
+                0x0000000008002570                __aeabi_fcmpge
+                0x0000000008002584                __aeabi_fcmpgt
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+ .text          0x0000000008002598        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.text*)
- .text.__errno  0x0000000008000a5c        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
-                0x0000000008000a5c                __errno
- .text.exit     0x0000000008000a68       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
-                0x0000000008000a68                exit
+ .text.__errno  0x0000000008002598        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x0000000008002598                __errno
+ .text.exit     0x00000000080025a4       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+                0x00000000080025a4                exit
  .text.__libc_init_array
-                0x0000000008000a90       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
-                0x0000000008000a90                __libc_init_array
- .text.memset   0x0000000008000ad8       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
-                0x0000000008000ad8                memset
+                0x00000000080025cc       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+                0x00000000080025cc                __libc_init_array
+ .text.memset   0x0000000008002614       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x0000000008002614                memset
  *(.init)
- .init          0x0000000008000ae8        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
-                0x0000000008000ae8                _init
- .init          0x0000000008000aec        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0000000008002624        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008002624                _init
+ .init          0x0000000008002628        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008000af4        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
-                0x0000000008000af4                _fini
- .fini          0x0000000008000af8        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .fini          0x0000000008002630        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
+                0x0000000008002630                _fini
+ .fini          0x0000000008002634        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.rodata)
+ .rodata        0x000000000800263c        0x4 main.o
+                0x000000000800263c                speedOfSound
  *(.rodata.*)
  .rodata._global_impure_ptr
-                0x0000000008000b00        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
-                0x0000000008000b00                _global_impure_ptr
-                0x0000000008000b04                . = ALIGN (0x4)
-                0x0000000008000b04                _etext = .
-                0x0000000008000b10                _lo_data = LOADADDR (.data)
+                0x0000000008002640        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x0000000008002640                _global_impure_ptr
+                0x0000000008002644                . = ALIGN (0x4)
+                0x0000000008002644                _etext = .
+                0x0000000008002650                _lo_data = LOADADDR (.data)
 
-.glue_7         0x0000000008000b04        0x0
- .glue_7        0x0000000008000b04        0x0 linker stubs
+.glue_7         0x0000000008002644        0x0
+ .glue_7        0x0000000008002644        0x0 linker stubs
 
-.glue_7t        0x0000000008000b04        0x0
- .glue_7t       0x0000000008000b04        0x0 linker stubs
+.glue_7t        0x0000000008002644        0x0
+ .glue_7t       0x0000000008002644        0x0 linker stubs
 
-.vfp11_veneer   0x0000000008000b04        0x0
- .vfp11_veneer  0x0000000008000b04        0x0 linker stubs
+.vfp11_veneer   0x0000000008002644        0x0
+ .vfp11_veneer  0x0000000008002644        0x0 linker stubs
 
-.v4_bx          0x0000000008000b04        0x0
- .v4_bx         0x0000000008000b04        0x0 linker stubs
+.v4_bx          0x0000000008002644        0x0
+ .v4_bx         0x0000000008002644        0x0 linker stubs
 
-.iplt           0x0000000008000b04        0x0
- .iplt          0x0000000008000b04        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x0000000008002644        0x0
+ .iplt          0x0000000008002644        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.eh_frame       0x0000000008000b04        0x4
- .eh_frame      0x0000000008000b04        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
- .eh_frame      0x0000000008000b04        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+.eh_frame       0x0000000008002644        0x4
+ .eh_frame      0x0000000008002644        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008002644        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
 
-.ARM.extab      0x0000000008000b08        0x0
- .ARM.extab     0x0000000008000b08        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+.ARM.extab      0x0000000008002648        0x0
+ .ARM.extab     0x0000000008002648        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
 
-.ARM.exidx      0x0000000008000b08        0x8
- .ARM.exidx     0x0000000008000b08        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
+.ARM.exidx      0x0000000008002648        0x8
+ .ARM.exidx     0x0000000008002648        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/crt0.o
                                          0x10 (size before relaxing)
 
-.rel.dyn        0x0000000008000b10        0x0
- .rel.iplt      0x0000000008000b10        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008002650        0x0
+ .rel.iplt      0x0000000008002650        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.data           0x0000000020000000       0x74 load address 0x0000000008000b10
+.data           0x0000000020000000       0x74 load address 0x0000000008002650
                 0x0000000020000000                _sdata = .
  *(.data)
  .data          0x0000000020000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crti.o
@@ -271,8 +363,13 @@ LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/
  .data          0x0000000020000008        0x0 gpio_driver.o
  .data          0x0000000020000008        0x0 stm32f4_startup.o
  .data          0x0000000020000008        0x0 main.o
- .data          0x0000000020000008        0x0 HC_SR04.o
  .data          0x0000000020000008        0x0 timer_driver.o
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
  .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
  .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
  .data          0x0000000020000008        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
@@ -293,10 +390,10 @@ LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/
                 0x0000000020000074                . = ALIGN (0x4)
                 0x0000000020000074                _edata = .
 
-.igot.plt       0x0000000020000074        0x0 load address 0x0000000008000b84
+.igot.plt       0x0000000020000074        0x0 load address 0x00000000080026c4
  .igot.plt      0x0000000020000074        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.bss            0x0000000020000074       0x30
+.bss            0x0000000020000074       0x8c
                 0x0000000020000074                _sbss = .
                 0x0000000020000074                __bss_start__ = _sbss
  *(.bss)
@@ -307,26 +404,49 @@ LOAD /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/
                 0x0000000020000090                __env
  .bss           0x0000000020000098        0x0 gpio_driver.o
  .bss           0x0000000020000098        0x0 stm32f4_startup.o
- .bss           0x0000000020000098        0x0 main.o
- .bss           0x0000000020000098        0x0 HC_SR04.o
- .bss           0x0000000020000098        0x0 timer_driver.o
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
- .bss           0x0000000020000098        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+ .bss           0x0000000020000098       0x11 main.o
+                0x0000000020000098                basic_timer_interrupt
+                0x0000000020000099                input_capture_with_interrupt
+                0x000000002000009a                output_capture_with_interrupt
+                0x000000002000009b                test_hcsr04
+                0x000000002000009c                is_capture1
+                0x000000002000009d                is_capture2
+                0x000000002000009e                icFlag
+                0x000000002000009f                captureIdx
+                0x00000000200000a0                edge1Time
+                0x00000000200000a4                edge2Time
+                0x00000000200000a8                rxCmplt
+ .bss           0x00000000200000a9        0x0 timer_driver.o
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+ .bss           0x00000000200000a9        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
  *(.bss.*)
  *(COMMON)
- COMMON         0x0000000020000098        0xc main.o
-                0x0000000020000098                handler
-                0x00000000200000a4                . = ALIGN (0x4)
-                0x00000000200000a4                _ebss = .
-                0x00000000200000a4                __bss_end__ = _ebss
-                0x00000000200000a4                . = ALIGN (0x4)
-                0x00000000200000a4                end = .
-                0x00000000200000a4                __end__ = end
+ *fill*         0x00000000200000a9        0x3 
+ COMMON         0x00000000200000ac       0x54 main.o
+                0x00000000200000ac                TOCHandler
+                0x00000000200000c0                distance
+                0x00000000200000c4                TSHandler
+                0x00000000200000d0                handler
+                0x00000000200000dc                TICHandler
+                0x00000000200000ec                capture
+                0x00000000200000f4                AFhandler
+                0x0000000020000100                . = ALIGN (0x4)
+                0x0000000020000100                _ebss = .
+                0x0000000020000100                __bss_end__ = _ebss
+                0x0000000020000100                . = ALIGN (0x4)
+                0x0000000020000100                end = .
+                0x0000000020000100                __end__ = end
 OUTPUT(final.elf elf32-littlearm)
 LOAD linker stubs
 
@@ -347,23 +467,33 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000000f2       0x2e main.o
  .ARM.attributes
-                0x0000000000000120       0x2e HC_SR04.o
+                0x0000000000000120       0x2e timer_driver.o
  .ARM.attributes
-                0x000000000000014e       0x2e timer_driver.o
+                0x000000000000014e       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
  .ARM.attributes
-                0x000000000000017c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x000000000000016c       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
  .ARM.attributes
-                0x00000000000001aa       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+                0x000000000000018a       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000000000001d8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x00000000000001a8       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x0000000000000206       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+                0x00000000000001c6       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x0000000000000234       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x00000000000001e4       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x0000000000000262       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+                0x0000000000000202       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000290       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
+                0x0000000000000230       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x000000000000025e       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000000000028c       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000002ba       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000000002e8       0x2e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtend.o
+ .ARM.attributes
+                0x0000000000000316       0x1e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/crtn.o
 
 .comment        0x0000000000000000       0x4c
  .comment       0x0000000000000000       0x4c syscalls.o
@@ -371,11 +501,16 @@ LOAD linker stubs
  .comment       0x000000000000004c       0x4d gpio_driver.o
  .comment       0x000000000000004c       0x4d stm32f4_startup.o
  .comment       0x000000000000004c       0x4d main.o
- .comment       0x000000000000004c       0x4d HC_SR04.o
  .comment       0x000000000000004c       0x4d timer_driver.o
 
-.debug_frame    0x0000000000000000       0x94
- .debug_frame   0x0000000000000000       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000000020       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
- .debug_frame   0x0000000000000048       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
- .debug_frame   0x0000000000000074       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
+.debug_frame    0x0000000000000000      0x2cc
+ .debug_frame   0x0000000000000000       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x0000000000000030       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x0000000000000054       0xac /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000000100       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000124       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x0000000000000170       0xc8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7e-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_frame   0x0000000000000238       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000258       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000280       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000002ac       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp/libc_nano.a(lib_a-memset.o)
